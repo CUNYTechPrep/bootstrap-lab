@@ -1,10 +1,19 @@
 main {
-    margin: auto;
-    width: 50%;
     text-align: center;
 }
 
+#aboutus-text {
+    text-align: left;
+}
+
+/* .container-fluid {
+
+}
+
 .col-sm {
-    background-color: aqua;
-    border: solid black 1px;
+
+} */
+
+.cookie-image {
+    border-radius: 50%;
 }
