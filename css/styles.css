@@ -1,1 +1,10 @@
+main {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
 
+.col-sm {
+    background-color: aqua;
+    border: solid black 1px;
+}
