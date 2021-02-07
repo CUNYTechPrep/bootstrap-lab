@@ -1,16 +1,41 @@
 h3, p, .col-lg-3{
     text-align: center;
     align-items: center;
+    font-size: 2.0rem;
+}
+
+h2{
     font-size: 2.5rem;
 }
 
-.desc{
+.title{
+    font-size: 4rem;
+}
+
+.buy{
     font-size: 2rem;
+}
+
+.border{
+    padding-top: 5%;
+    padding-bottom: 4%;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.desc{
+    font-size: 1.7rem;
 }
 
 .mar{
     margin-left: 10px;
     padding-bottom: 5%;
+}
+
+.cookie{
+    max-width: 90%;
 }
 
 .grey{
@@ -45,11 +70,11 @@ h3, p, .col-lg-3{
     background-color: #03b1fc;
 }
 
-#title{
+#heading{
     color: white;
     text-align: center;
-    padding-bottom: 15%;
-    padding-top: 15%;
+    padding-bottom: 10%;
+    padding-top: 8%;
     background: url(../img/milkbg.jpg) no-repeat;
     background-size: cover;
 
