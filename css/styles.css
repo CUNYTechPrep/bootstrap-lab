@@ -1,1 +1,61 @@
+h3, p, .col-lg-3{
+    text-align: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
 
+.desc{
+    font-size: 2rem;
+}
+
+.mar{
+    margin-left: 10px;
+    padding-bottom: 5%;
+}
+
+.grey{
+    background-color: lightgray;
+    padding-bottom: 3%;
+    overflow: hidden;
+}
+
+
+.marg{
+    margin-left: 5%;
+    
+}
+
+.about{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.space{
+    padding-top: 3%;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.contact{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    color: white;
+    background-color: #03b1fc;
+}
+
+#title{
+    color: white;
+    text-align: center;
+    padding-bottom: 15%;
+    padding-top: 15%;
+    background: url(../img/milkbg.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+#end{
+    text-align: center;
+    padding-bottom: 10px;
+}
