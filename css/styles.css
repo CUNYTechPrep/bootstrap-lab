@@ -1,42 +1,60 @@
-h3, p, .col-lg-3{
+.center{
     text-align: center;
     align-items: center;
     font-size: 2.0rem;
 }
 
+
+
 h2{
+    text-align: center;
+
     font-size: 2.5rem;
 }
 
+
+#heading{
+    color: white;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 6%;
+    background: url(../img/milkbg.jpg) no-repeat;
+    background-size: cover;
+}
+
+#border{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 5px;
+}
+
 .title{
-    font-size: 4rem;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .buy{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
-.border{
-    padding-top: 5%;
-    padding-bottom: 4%;
-    width: 50%;
-    height: 100%;
-    margin: 0 auto;
-    background-color: rgba(0,0,0, 0.5);
-}
+
 
 .desc{
+    text-align: center;
+    align-items: center;
     font-size: 1.7rem;
 }
+
 
 .mar{
     margin-left: 10px;
     padding-bottom: 5%;
 }
 
-.cookie{
-    max-width: 90%;
-}
 
 .grey{
     background-color: lightgray;
@@ -59,7 +77,11 @@ h2{
     padding-top: 3%;
     overflow: hidden;
     text-align: center;
+}
 
+.monster{
+    max-width: 90%;
+    max-height: 90%;
 }
 
 .contact{
@@ -68,16 +90,6 @@ h2{
     padding-bottom: 2%;
     color: white;
     background-color: #03b1fc;
-}
-
-#heading{
-    color: white;
-    text-align: center;
-    padding-bottom: 10%;
-    padding-top: 8%;
-    background: url(../img/milkbg.jpg) no-repeat;
-    background-size: cover;
-
 }
 
 #end{
