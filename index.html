@@ -10,18 +10,39 @@
   <title>Cookie Store</title>
 </head>
 <body>
-  <main>
+  <!-- Nav Bar -->
+  <nav aria-label="breadcrumb align-top">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page"><a href="index.html">index.html</a></li>
+      <li class="breadcrumb-item"><a href="#">index1.html</a></li>
+      <li class="breadcrumb-item"><a href="#">index2.html</a></li>
+      <li class="breadcrumb-item"><a href="#">index3.html</a></li>
+      <li class="breadcrumb-item"><a href="#">index4.html</a></li>
+      <li class="breadcrumb-item"><a href="#">index5.html</a></li>
 
+    </ol>
+  </nav>
+
+  <header>
+    
     <div class="container-fluid">
       <!-- Top Row -->
-      <div class="row">
-        <div class="col-sm">
-          <h1>Cookie Store</h1>
+      <div id="header-banner" class="row">
+          <img src="img/milkbg.jpg" class="img-fluid" alt="Coffee">
 
-          <p>Buy our awesome cookies. All proceeds go to charity!</p>
-        </div>
+          <div id="header-text">
+            <h1>Cookie Store</h1>
+
+            <p>Buy our awesome cookies. All proceeds go to charity!</p>
+          </div>
+          
       </div>
+    </div>
+  </header>
 
+
+  <main>
+    <div class="container-fluid">
       <!-- The Cookies Heading Row -->
       <div class="row">
         <div class="col-sm">
@@ -31,32 +52,45 @@
 
       <!-- Cookie Images Row -->
       <div class="row">
-        <div class="col-sm">
-          <h3>Thin Mint Cookies</h3>
+        <div class="col-xl-3">
+          <h3>Thin Mint Cookies <span class="badge badge-danger">New</span></h3>
           <p>Tasty mint chocolate cookies</p>
           <img class="cookie-image" src="img/mint.png">
         </div>
-        <div class="col-sm">
+        <div class="col-xl-3">
           <h3>Peanut Butter Cookies</h3>
           <p>Yummy peanut buttery goodness!</p>
           <img class="cookie-image" src="img/peanut.png">
         </div>
-        <div class="col-sm">
+        <div class="col-xl-3">
           <h3>Short Bread Cookies</h3>
           <p>Santa's favorite classic.</p>
           <img class="cookie-image" src="img/shortbread.png">
         </div>
-        <div class="col-sm">
+        <div class="col-xl-3">
           <h3>Smore's Cookies</h3>
           <p>Camp fire favorite!</p>
           <img class="cookie-image" src="img/smores.png">
         </div>
       </div>
+    </div>
+  </main>
 
-      <!-- About Us Row -->
-      <div class="row">
+  <!-- About Us  -->
+  <section>
+    <div class="container-fluid">
+      <!-- About us Heading  -->
+      <div class="row ftr-row-1">
         <div class="col-sm">
           <h2>About us</h2>
+        </div>
+      </div>
+      <!-- About Us Content -->
+      <div class="row">
+        <div class="col-3">
+          <img src="img/cmonster.png" class="img-fluid">
+        </div>
+        <div class="col-sm">
           <div id="aboutus-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -65,20 +99,22 @@
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
         </div>
       </div>
-
-      <!-- Contact Us Row -->
-      <div class="row">
-        <div class="col-sm">
-          <h2>Contact us</h2>
-          <div>
-            100 Broadway Avenue,<br>
-            New York, NY 10001 <br>
-            (212) 555-1234
+    </div>
+  </section>
+  <footer>
+      <!-- Contact Us Section -->
+      <address>
+        <div class="row">
+          <div class="col-sm">
+            <h2>Contact us</h2>
+            <div>
+              100 Broadway Avenue,<br>
+              New York, NY 10001 <br>
+              (212) 555-1234
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-
-  </main>
+      </address>
+  </footer>
 </body>
 </html>

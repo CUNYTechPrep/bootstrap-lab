@@ -1,18 +1,56 @@
-main {
+body {
     text-align: center;
+}
+
+nav {
+    background-color: gray;
+    padding: 0%;
+    margin: 0%;
+}
+
+#header-banner {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+header img {
+    width: 100%;
+    max-height: 540px;
+}
+
+#header-text {
+    /* max-height: 100px; */
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    color: white; 
+    padding: 100px 100px; 
+    border-radius: 10px;
+    /* font-size: 5%; */
+    /* margin: auto; */
+    position: absolute;
+}
+
+main {
+    padding: 10px 10px;
+}
+
+section {
+    text-align: center;
+    padding: 10px 10px;
+    background-color: lightgray;
+}
+
+address {
+    padding: 10px 10px;
+    color: white;
+    background-color: deepskyblue;
 }
 
 #aboutus-text {
     text-align: left;
 }
 
-/* .container-fluid {
-
-}
-
-.col-sm {
-
-} */
 
 .cookie-image {
     border-radius: 50%;
