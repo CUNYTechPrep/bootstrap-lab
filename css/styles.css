@@ -2,10 +2,10 @@ body {
     text-align: center;
 }
 
-nav {
-    background-color: gray;
-    padding: 0%;
+.breadcrumb {
     margin: 0%;
+    padding: 0%;
+    background-color: rgba(0,0,0,0.8);
 }
 
 #header-banner {
@@ -16,19 +16,20 @@ nav {
 
 header img {
     width: 100%;
-    max-height: 540px;
+    max-height: 750px;
 }
 
 #header-text {
-    /* max-height: 100px; */
-    width: 50%;
     background-color: rgba(0,0,0,0.5);
     color: white; 
-    padding: 100px 100px; 
+    padding: 6% 3%; 
     border-radius: 10px;
-    /* font-size: 5%; */
-    /* margin: auto; */
+    /* font-size: 1rem; */
     position: absolute;
+}
+
+#header-text h1 {
+    font-size: 3rem;
 }
 
 main {
@@ -37,7 +38,7 @@ main {
 
 section {
     text-align: center;
-    padding: 10px 10px;
+    padding: 15px 10px;
     background-color: lightgray;
 }
 
@@ -49,9 +50,4 @@ address {
 
 #aboutus-text {
     text-align: left;
-}
-
-
-.cookie-image {
-    border-radius: 50%;
 }
