@@ -1,1 +1,50 @@
+body {
+  background-color: #ffe5d9;
+}
+.main-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 55px;
+  color: #7e473e;
+  text-align: center;
+}
 
+.med-title {
+  font-size: 35px;
+  color: #7e473e;
+}
+.footer {
+  background-color: #fec5bb;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+  color: #7e473e;
+  font-family: "Nunito", sans-serif;
+}
+.box {
+  background-color: #d8e2dc;
+  border-radius: 10px;
+}
+
+.about {
+  background-color: #d8e2dc;
+}
+
+.cookies {
+  border-radius: 1500px;
+  width: 270px;
+  height: 200px;
+}
+
+.main-store {
+  background-image: url("https://i.pinimg.com/originals/3a/70/7a/3a707a5f1cb2740a2dd0e13b1db50c6f.gif");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+#cookie-logo {
+  width: 200px;
+  height: 200px;
+}
