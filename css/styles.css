@@ -9,10 +9,10 @@
 
 #banner .content{
     position: relative;
-    border: 3px solid black;
     top: 50px;
-    width: 400px;
+    width: 450px;
     margin: 0 auto;
     color:white;
+    background: rgba(0, 0, 0, .5);
 
 }
