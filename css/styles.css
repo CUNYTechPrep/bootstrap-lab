@@ -1,7 +1,49 @@
-img{ 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.cookies{ 
     border-radius: 50%;
 }
 
 *{
     text-align: center;
 }
+
+.milkbg{
+    background-image: url("../img/milkbg.jpg");
+    background-size: cover; 
+    background-position: center;
+    height: 700px;
+    width: 100%;
+}
+
+.cookieStore{
+    background: rgba(0,0,0,0.75); 
+    color: white;
+    margin:auto;
+    width: 40%;
+    height: 50%;
+    border-radius: 15px;
+    padding: 10% 5%;
+}
+
+.aboutus{
+    background-color: #d3d3d3;
+}
+
+.contactus{
+    background-color: #19a0d0;
+    color: white;
+    height: 15%;
+}
+
+.padding{
+    padding: 1.5% 0px;
+}
+
