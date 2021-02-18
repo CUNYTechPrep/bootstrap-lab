@@ -16,3 +16,14 @@
     background: rgba(0, 0, 0, .5);
 
 }
+
+#about{
+    background: #BEBEBE;
+    height: 300px;
+  
+}
+
+#contact{
+    background: #29b6f6;
+    color: white;
+}
