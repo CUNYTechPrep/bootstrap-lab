@@ -1,47 +1,108 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link href="./css/styles.css" type="text/css" rel="stylesheet">
   <title>Cookie Store</title>
 </head>
+
 <body>
+  <!--Hero Section-->
+  <section class="h-100 d-flex align-items-center hero-banner">
+    <div class="container h-50 w-50 d-flex flex-column justify-content-center text-center hero-box">
+      <h1 class="font-weight-bolder hero-title">Cookie Store</h1>
+      <p class="font-weight-light hero-text">Buy our awesome cookies. All proceeds go to charity!</p>
+    </div>
+  </section>
 
+  <!--Products Section-->
+  <section class= py-lg-3>
+    <div class="container">
+      <div class="row my-2 pt-2 my-lg-5 justify-content-center">
+        <h2 class="font-weight-bolder section-heading">The Cookies</h2>
+      </div>
 
-<h1>Cookie Store</h1>
+      <div class="row justify-content-center py-lg-4 mb-4 py-3">
+        <div
+          class="col-lg-5 col-12 d-lg-flex flex-lg-column align-items-lg-end justify-content-lg-center text-center my-auto">
+          <h3 class="font-weight-bold product-heading">Thin Mint Cookies <span class="badge badge-danger">NEW</span></h3>
+          <p class="font-weight-light product-subtitle">Tasty mint chocolate cookies</p>
+        </div>
+        <div class="col-lg-5 col-12 d-flex justify-content-center">
+          <img src="img/mint.png" alt="mint chocolate chip cookie" class="img-fluid rounded-circle">
+        </div>
+      </div>
 
-<p>Buy our awesome cookies. All proceeds go to charity!</p>
+      <div class="row justify-content-center py-lg-4 mb-4 py-3">
+        <div
+          class="col-lg-5 col-12 order-lg-2 d-lg-flex flex-lg-column align-items-lg-start justify-content-lg-center text-center my-auto">
+          <h3 class="font-weight-bold product-heading">Peanut Butter Cookies</h3>
+          <p class="font-weight-light product-subtitle">Yummy peanut buttery goodness!</p>
+        </div>
+        <div class="col-lg-5 col-12 order-lg-1 d-flex justify-content-center">
+          <img src="img/peanut.png" alt="peanut butter filled cookies" class="img-fluid rounded-circle">
+        </div>
+      </div>
 
-<h2>The Cookies</h2>
+      <div class="row justify-content-center py-lg-4 mb-4 py-3">
+        <div
+          class="col-lg-5 col-12 d-lg-flex flex-lg-column align-items-lg-end justify-content-lg-center text-center my-auto">
+          <h3 class="font-weight-bold product-heading">Short Bread Cookies</h3>
+          <p class="font-weight-light product-subtitle">Santa's favorite classic.</p>
+        </div>
+        <div class="col-lg-5 col-12 d-flex justify-content-center">
+          <img src="img/shortbread.png" alt="short bread cookies" class="img-fluid rounded-circle">
+        </div>
+      </div>
 
-<h3>Thin Mint Cookies</h3>
-<p>Tasty mint chocolate cookies</p>
-<img src="img/mint.png">
+      <div class="row justify-content-center py-lg-4 mb-4 py-3">
+        <div
+          class="col-lg-5 col-12 order-lg-2 d-lg-flex flex-lg-column align-items-lg-start justify-content-lg-center text-center my-auto">
+          <h3 class="font-weight-bold product-heading">Smore's Cookies</h3>
+          <p class="font-weight-light product-subtitle">Camp fire favorite!</p>
+        </div>
+        <div class="col-lg-5 col-12 order-lg-1 d-flex justify-content-center">
+          <img src="img/smores.png" alt="thin smore's cookies" class="img-fluid rounded-circle">
+        </div>
+      </div>
+    </div>
+  </section>
 
-<h3>Peanut Butter Cookies</h3>
-<p>Yummy peanut buttery goodness!</p>
-<img src="img/peanut.png">
+  <!--About Section-->
+  <section class="about-bg py-lg-4 py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 order-2 order-sm-1 d-flex justify-content-center align-items-center">
+          <img src="img/cmonster.png" alt="cookie monster sesame street">
+        </div>
+        <div class="col-lg-9 col-md-8 col-sm-6 col-12 order-1 order-sm-2">
+          <h2 class="text-center font-weight-bolder section-heading">About us</h2>
+          <div class="font-weight-light section-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<h3>Short Bread Cookies</h3>
-<p>Santa's favorite classic.</p>
-<img src="img/shortbread.png">
-
-<h3>Smore's Cookies</h3>
-<p>Camp fire favorite!</p>
-<img src="img/smores.png">
-
-<h2>About us</h2>
-<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-
-<h2>Contact us</h2>
-<div>
-  100 Broadway Avenue,<br>
-  New York, NY 10001 <br>
-  (212) 555-1234
-</div>
-
+  <!--Contact Section-->
+  <section class="contact-bg py-4">
+    <div class="container">
+      <div class="d-flex flex-column align-items-center text-center">
+        <h2 class="font-weight-bolder section-heading white-text">Contact us</h2>
+        <div class="font-weight-light section-text white-text">
+          100 Broadway Avenue,<br>
+          New York, NY 10001 <br>
+          (212) 555-1234
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
