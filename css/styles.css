@@ -1,1 +1,94 @@
+* {
+    font-family: 'Newsreader', serif;
+}
 
+.cookie {
+    border-radius: 50%;
+    width: 250px;
+    float:right;
+}
+
+.container {
+    margin-top: 50px;
+    display: flexbox;
+}
+
+.col-sm-3{
+    min-width: 375px;
+}
+
+.row, #the-cookies-header {
+    text-align: center;
+}
+
+
+#first-p{
+    margin-top:25px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+#toph1{
+    margin-top: 40px;
+}
+
+#interior {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    display: inline-block;
+    width: 40vw;
+    min-height: 30vh;
+    border-radius: 5px;
+    margin-top: 250px;
+    text-align: center;
+}
+
+#page-top
+{
+    margin-bottom: 20px;
+    background-image: url("coffee-cookie.jpeg");
+    width: 100%;
+    height: 825px;
+    text-align: center;
+    /* position: fixed; */
+}
+
+#about-us {
+    display: inline-block;
+    width: 100%;
+    min-height: 200px;
+    margin-top: 20px;
+    background-color: gray;
+    overflow: visible;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#about-us-text {
+    text-align: left;
+    margin-right: 100px;
+}
+
+#cookie-monster {
+    margin-top: 10px;
+    margin-right: 50px;
+    max-width: 200px; 
+    height: auto;
+    float:left;
+}
+
+#about-us-title{
+    text-align: center;
+}
+
+#contact-us {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    min-height: 120px;
+    text-align: center;
+    background-color: rgb(78, 173, 236);
+    color: white;
+}
