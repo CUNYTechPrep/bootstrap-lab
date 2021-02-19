@@ -31,20 +31,37 @@ p {
   color: #7e473e;
   font-family: "Nunito", sans-serif;
 }
-.box {
-  background-color: #d8e2dc;
-  border-radius: 10px;
-  width: 80%;
-  opacity: 80%;
-  height: 100;
-  float: left;
-  z-index: 999;
-  margin: -50% 20% 0 auto;
+
+.centered-box {
+  margin-top: 50%;
   position: absolute;
-  overflow: hidden;
-  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image-box-container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
+.main-header-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 90px;
+  color: #7e473e;
+  text-align: center;
+}
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+  background-color: #d8e2dc;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 80%;
+}
 .make-center {
   margin-left: 10%;
   margin-right: auto;
@@ -68,16 +85,6 @@ img.cookies {
   margin: auto;
 }
 
-.main-store {
-  /* margin-top: 17%; */
-  background-image: url("https://i.pinimg.com/originals/3a/70/7a/3a707a5f1cb2740a2dd0e13b1db50c6f.gif");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 800px;
-}
-
 .row {
   margin-top: 5%;
 }
@@ -88,44 +95,31 @@ img.cookies {
   margin: auto;
 }
 
-@media (min-width: 1300px) {
-  .box {
-    margin: -50% 20% 0 auto;
+@media (max-width: 1000px) {
+  .main-header-title {
+    font-size: 45px;
   }
-  .main-store {
-    height: 1200px;
-  }
-}
 
-@media (min-width: 1100px) {
-  .box {
-    margin: -10% 20% 0 auto;
-  }
-  .main-store {
+  #coffee-shop {
     height: 800px;
   }
 }
 
-@media (min-width: 1000px) {
-  .box {
-    margin: -10% 20% 0 auto;
+@media (max-width: 800px) {
+  .main-header-title {
+    font-size: 30px;
   }
-  .main-store {
-    height: 800px;
+
+  #coffee-shop {
+    height: 500px;
   }
 }
-
-@media (min-width: 800px) {
-  .box {
-    margin: -40% 20% 0 auto;
+@media (max-width: 500px) {
+  .main-header-title {
+    font-size: 30px;
   }
-  .main-store {
-    height: 600px;
-  }
-}
 
-@media (max-width: 535px) {
-  .main-store {
-    height: 400px;
+  #coffee-shop {
+    height: 500px;
   }
 }
