@@ -81,3 +81,7 @@ h1.text {
     color: hsl(340, 100%, 17%); 
     font-family: 'Georgia', 'sans-serif';
 } 
+
+div.container {
+    flex-direction: column-reverse;
+}
