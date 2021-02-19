@@ -13,7 +13,8 @@ html,body
 
 *{
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Comic Neue', cursive;
 }
 
 #title{
@@ -52,4 +53,14 @@ html,body
 .padding{
     padding: 1.5% 0px;
 }
+
+.highlight{
+    background-color:red;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-weight: thick;
+    font-size: 30px;
+    vertical-align: middle;
+}   
 
