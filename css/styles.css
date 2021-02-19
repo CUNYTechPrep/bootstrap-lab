@@ -1,0 +1,62 @@
+  
+html
+{
+    overflow-x: hidden; 
+}
+
+*{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Newsreader', serif;
+}
+#about{
+    text-align: left;
+    padding-bottom: 50px;
+}
+#title-bg{
+    padding: 35px;
+    background: url(/img/milkbg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+.cookie-title{
+    padding: 30px;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+.cookieStore{
+    background: black;
+    color: white;
+    opacity: 70%; 
+    padding-top: 3%;
+    margin:auto;
+    border-radius: 10px;
+    width: 50%;
+    height: 75%;
+}
+
+.padding{
+    padding: 1.30% 0px;
+}
+
+.about{
+    background-color: #D3D3D3;
+    
+}
+
+.contact{
+    background-color: #19A0D0;
+    color:white;
+}
+
+.new{
+    background-color:red;
+    color: white;
+    padding: 3px 9px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 35px;
+}   
