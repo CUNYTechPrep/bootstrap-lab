@@ -1,1 +1,85 @@
+* {
+    text-align: center;
+    justify-content: center;
+}
+
+
+#about {
+    background-color: gray;
+}
+
+.store h1 {
+    font-weight: bold;
+}
+
+.img-bg {
+    background-image: url('../img/milkbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 450px;
+    color: white;
+  }
+
+  .transparent {
+      opacity: 0.6;
+      background-color: black;
+  }
+
+  .brand {
+      border-radius: 5%;
+      margin: auto;
+      width: 50%;
+  }
+
+.brand h1 {
+    color: white;
+    font-size: 5em;
+}
+
+.brand p {
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+div.cookies {
+    padding: 15px;
+}
+
+.cookies h3 {
+    font-size: 1.8em;
+}
+
+.cookies p {
+    font-size: 1.2em;
+}
+
+.cookies img {
+    border-radius: 50%;
+    max-height: 100px;
+}
+
+.about {
+    background-color: darkgray;
+}
+
+.about h2 {
+    padding: 30px 0;
+    text-align: center;
+}
+
+
+
+div.contact {
+    background-color: dodgerblue;
+    padding: 20px 0 30px 0;
+    color: white;
+    height: 140px;
+}
+
+.contact div {
+    font-size: 1.5em;
+}
 
