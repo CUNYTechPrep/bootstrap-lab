@@ -13,6 +13,11 @@ html,body
 
 *{
     text-align: center;
+    font-size: 20px;
+}
+
+#title{
+    font-size: 100px;
 }
 
 .milkbg{
@@ -30,7 +35,7 @@ html,body
     width: 40%;
     height: 50%;
     border-radius: 15px;
-    padding: 10% 5%;
+    padding-top: 3%;
 }
 
 .aboutus{
@@ -40,7 +45,8 @@ html,body
 .contactus{
     background-color: #19a0d0;
     color: white;
-    height: 15%;
+    height: 20%;
+    padding: 10% 5%;
 }
 
 .padding{
