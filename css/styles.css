@@ -16,7 +16,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 800px;
     width: 100%;
 }
 
@@ -25,12 +24,12 @@ body {
     height: 100%;
     width: 100%;
     background-size: cover;
-    clip-path: inset(100px 0px 100px 0px);
-    margin: -100px 0px;
+    /* clip-path: inset(100px 0px 100px 0px); */
+    /* margin: -100px 0px; */
 }
 
 .text-wrapper {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
     padding: 50px 50px;
@@ -42,8 +41,9 @@ body {
     font-size: 2rem;
     position: absolute;
     top: 30%;
-    transform: translateY(-90%);
+    transform: translateY(-50%);
 }
+
 .text-wrapper h1 {
     font-size: 5rem;
     font-weight: 900;
