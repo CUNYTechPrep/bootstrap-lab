@@ -5,73 +5,84 @@
   <title>Cookie Store</title>
 
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
+
 
 </head>
 
 <body>
-  <div id="heading">
-    <div id="border" class="container">
-      <br>
+  <div id="heading" class="py-5">
+    <br>
+    <br>
+    <div id="border" class="container py-5">
+      <div class="row py-3">
+        <div class="col py-3">
 
-      <h1 class="title">Cookie Store</h1>
+          <h1 class="title">Cookie Store</h1>
 
-      <p class="buy">Buy our awesome cookies. All proceeds <br>go to charity!</p>
+          <p class="buy">Buy our awesome cookies. All proceeds <br>go to charity!</p>
 
-      <br>
+        </div>
+
+      </div>
 
 
     </div>
-
+    <br>
+    <br>
 
   </div>
 
-  <br> <br>
-  <h2>The Cookies</h2>
-  <br>
+  <div class="container py-4">
+    <div class="row justify-content-center pb-4">
+      <div class="col pb-3">
+        <h2 class="text-center">The Cookies</h2>
+      </div>
+    </div>
+  </div>
 
   <div class="container">
     <!--space align-self-center -->
-    <div class="row">
-      <div class="col-sm-12 col-lg-8">
-        <h3 class="center">Thin Mint Cookies <span class="badge badge-danger">New</span></h3>
-        <p class="desc">Tasty mint chocolate cookies</p> <!-- class="desc" -->
+    <div class="row justify-content-sm-center">
+      <div class="col-sm-12 col-lg-4">
+        <h3 class="text-sm-center text-lg-right">Thin Mint Cookies <span class="badge badge-danger">New</span></h3>
+        <p class="desc text-sm-center text-lg-right">Tasty mint chocolate cookies</p> <!-- class="desc" -->
       </div>
-      <div class="col-sm-12 center col-lg-2 ">
-        <img class="rounded-circle" src="img/mint.png">
+      <div class="col-sm-12 col-lg-2 text-sm-center">
+        <img class="rounded-circle px-5" src="img/mint.png">
       </div>
     </div>
     <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm-12 col-lg-8 order-lg-last">
-        <h3 class="center">Peanut Butter Cookies</h3>
-        <p class="desc">Yummy peanut buttery goodness!</p> <!-- class="desc" -->
+      <div class="col-sm-12 col-lg-6 order-lg-last">
+        <h3 class="text-sm-center text-lg-left">Peanut Butter Cookies</h3>
+        <p class="desc text-sm-center text-lg-left">Yummy peanut buttery goodness!</p> <!-- class="desc" -->
       </div>
-      <div class="col-sm-12 center col-lg-4">
-        <img class="rounded-circle" src="img/peanut.png">
+      <div class="col-sm-12 col-lg-4 text-lg-left text-sm-center">
+        <img class="rounded-circle text-lg-left" src="img/peanut.png">
       </div>
     </div>
     <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm-12 col-lg-8">
-        <h3 class="center">Short Bread Cookies</h3>
-        <p class="desc">Santa's favorite classic.</p> <!-- class="desc" -->
+      <div class="col-sm-12 center col-lg-6">
+        <h3 class="text-sm-center text-lg-right">Short Bread Cookies</h3>
+        <p class="desc text-sm-center text-lg-right">Santa's favorite classic.</p> <!-- class="desc" -->
       </div>
       <br>
-      <div class="col-sm-12 center col-lg-4">
-        <img class="rounded-circle" src="img/shortbread.png">
+      <div class="col-sm-12 col-lg-4 text-sm-center">
+        <img class="rounded-circle px-5" src="img/shortbread.png">
         <!--cookie class-->
       </div>
     </div>
     <br>
     <div class="row justify-content-sm-center">
-      <div class="col-sm-12 col-lg-8 order-lg-last">
-        <h3 class="center">Smore's Cookies</h3>
-        <p class="desc">Camp fire favorite!</p> <!-- class="desc" -->
+      <div class="col-sm-12 col-lg-6 order-lg-last">
+        <h3 class="text-sm-center text-lg-left">Smore's Cookies</h3>
+        <p class="desc text-sm-center text-lg-left">Camp fire favorite!</p> <!-- class="desc" -->
       </div>
-      <div class="col-sm-12 center col-lg-4">
+      <div class="col-sm-12 col-lg-4 text-sm-center">
         <img class="rounded-circle" src="img/smores.png">
       </div>
     </div>
@@ -83,7 +94,7 @@
   <div class="grey">
     <div class="container">
       <br>
-      <h2 id="end" class="about "> About us</h2>
+      <h2 class="text-center py-3"> About us</h2>
 
       <div class="row">
         <div class="col-4 col-lg-3">
@@ -102,17 +113,25 @@
 
 
 
-  <div class="contact">
+  <div class="contact py-5">
     <h2 id="end">Contact us</h2>
 
     100 Broadway Avenue,<br>
     New York, NY 10001 <br>
     (212) 555-1234
 
+
   </div>
 
-
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
