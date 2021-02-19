@@ -1,6 +1,13 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   background-color: #ffe5d9;
 }
+
 .main-title {
   font-family: "Dancing Script", cursive;
   font-size: 55px;
@@ -12,8 +19,11 @@ body {
   font-size: 35px;
   color: #7e473e;
 }
-.footer {
+
+footer {
+  overflow: hidden;
   background-color: #fec5bb;
+  height: 200px;
 }
 p {
   font-size: 20px;
@@ -24,10 +34,26 @@ p {
 .box {
   background-color: #d8e2dc;
   border-radius: 10px;
+  width: 80%;
+  opacity: 80%;
+  height: 100;
+  float: left;
+  z-index: 999;
+  margin: -50% 20% 0 auto;
+  position: absolute;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.make-center {
+  margin-left: 10%;
+  margin-right: auto;
 }
 
 .about {
   background-color: #d8e2dc;
+  overflow: hidden;
+  min-height: 500px;
 }
 
 .cookies {
@@ -36,15 +62,36 @@ p {
   height: 200px;
 }
 
+img.cookies {
+  display: block;
+  margin: auto;
+}
+
 .main-store {
+  /* margin-top: 17%; */
   background-image: url("https://i.pinimg.com/originals/3a/70/7a/3a707a5f1cb2740a2dd0e13b1db50c6f.gif");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 400px;
+  height: 800px;
+}
+
+.row {
+  margin-top: 5%;
 }
 #cookie-logo {
   width: 200px;
   height: 200px;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 1062px) {
+}
+
+@media (max-width: 535px) {
+  .main-store {
+    height: 400px;
+  }
 }
