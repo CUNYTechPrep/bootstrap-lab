@@ -1,47 +1,137 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Cookie Store</title>
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+
+
 </head>
+
 <body>
+  <div id="heading" class="py-5">
+    <br>
+    <br>
+    <div id="border" class="container py-5">
+      <div class="row py-3">
+        <div class="col py-3">
+
+          <h1 class="title">Cookie Store</h1>
+
+          <p class="buy">Buy our awesome cookies. All proceeds <br>go to charity!</p>
+
+        </div>
+
+      </div>
 
 
-<h1>Cookie Store</h1>
+    </div>
+    <br>
+    <br>
 
-<p>Buy our awesome cookies. All proceeds go to charity!</p>
+  </div>
 
-<h2>The Cookies</h2>
+  <div class="container py-4">
+    <div class="row justify-content-center pb-4">
+      <div class="col pb-3">
+        <h2 class="text-center">The Cookies</h2>
+      </div>
+    </div>
+  </div>
 
-<h3>Thin Mint Cookies</h3>
-<p>Tasty mint chocolate cookies</p>
-<img src="img/mint.png">
+  <div class="container">
+    <!--space align-self-center -->
+    <div class="row justify-content-sm-center py-3">
+      <div class="col-sm-12 col-lg-4">
+        <h3 class="text-sm-center text-lg-right">Thin Mint Cookies <span class="badge badge-danger">New</span></h3>
+        <p class="desc text-sm-center text-lg-right">Tasty mint chocolate cookies</p> <!-- class="desc" -->
+      </div>
+      <div class="col-sm-12 col-lg-2 text-sm-center">
+        <img class="rounded-circle px-5" src="img/mint.png">
+      </div>
+    </div>
+    <br>
+    <div class="row justify-content-sm-center py-3">
+      <div class="col-sm-12 col-lg-6 order-lg-last">
+        <h3 class="text-sm-center text-lg-left">Peanut Butter Cookies</h3>
+        <p class="desc text-sm-center text-lg-left">Yummy peanut buttery goodness!</p> <!-- class="desc" -->
+      </div>
+      <div class="col-sm-12 col-lg-4 text-lg-left text-sm-center">
+        <img class="rounded-circle text-lg-left" src="img/peanut.png">
+      </div>
+    </div>
+    <br>
+    <div class="row justify-content-sm-center py-3">
+      <div class="col-sm-12 center col-lg-6">
+        <h3 class="text-sm-center text-lg-right">Short Bread Cookies</h3>
+        <p class="desc text-sm-center text-lg-right">Santa's favorite classic.</p> <!-- class="desc" -->
+      </div>
+      <br>
+      <div class="col-sm-12 col-lg-4 text-sm-center">
+        <img class="rounded-circle px-5" src="img/shortbread.png">
+        <!--cookie class-->
+      </div>
+    </div>
+    <br>
+    <div class="row justify-content-sm-center py-3">
+      <div class="col-sm-12 col-lg-6 order-lg-last">
+        <h3 class="text-sm-center text-lg-left">Smore's Cookies</h3>
+        <p class="desc text-sm-center text-lg-left">Camp fire favorite!</p> <!-- class="desc" -->
+      </div>
+      <div class="col-sm-12 col-lg-4 text-sm-center">
+        <img class="rounded-circle" src="img/smores.png">
+      </div>
+    </div>
 
-<h3>Peanut Butter Cookies</h3>
-<p>Yummy peanut buttery goodness!</p>
-<img src="img/peanut.png">
+  </div>
+  <br>
 
-<h3>Short Bread Cookies</h3>
-<p>Santa's favorite classic.</p>
-<img src="img/shortbread.png">
 
-<h3>Smore's Cookies</h3>
-<p>Camp fire favorite!</p>
-<img src="img/smores.png">
+  <div class="grey">
+    <div class="container">
+      <br>
+      <h2 class="text-center py-3"> About us</h2>
 
-<h2>About us</h2>
-<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      <div class="row">
+        <div class="col-4 col-lg-3">
+          <img src="./img/cmonster.png" alt="Cookie Monster" class="monster">
+        </div>
+        <div class="col-8 col-lg-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      </div>
+    </div>
+    <br>
+  </div>
 
-<h2>Contact us</h2>
-<div>
-  100 Broadway Avenue,<br>
-  New York, NY 10001 <br>
-  (212) 555-1234
-</div>
 
+
+  <div class="contact py-5">
+    <h2 id="end">Contact us</h2>
+
+    100 Broadway Avenue,<br>
+    New York, NY 10001 <br>
+    (212) 555-1234
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,1 +1,58 @@
 
+
+
+h2{
+    font-size: 2.5rem;
+}
+
+
+#heading{
+    color: white;
+    text-align: center;
+    background: url(../img/milkbg.jpg) no-repeat;
+    background-size: cover;
+}
+
+#border{
+    width: 50%;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 5px;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.buy{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.desc{
+    font-size: 1.7rem;
+}
+
+
+.grey{
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+
+
+.space{
+    overflow: hidden;
+    text-align: center;
+}
+
+.monster{
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.contact{
+    text-align: center;
+    color: white;
+    background-color: #03b1fc;
+}
