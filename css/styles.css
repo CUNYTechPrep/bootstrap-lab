@@ -1,1 +1,77 @@
 
+body {
+    text-align: center;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav {
+    background-color: rgba(0,0,0,0.8);
+}
+
+#header-banner {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+header img {
+    width: 100%;
+    max-height: 750px;
+}
+
+#header-content {
+    background-color: rgba(0,0,0,0.5);
+    color: white; 
+    padding: 6% 3%; 
+    border-radius: 10px;
+    position: absolute;
+}
+
+#header-content h1 {
+    font-size: 3rem;
+}
+
+main, section, footer {
+    padding: 20px 20px;
+}
+
+.cookie-description-center {
+    align-self: center;
+}
+
+.cookies > div {
+    margin-top: 20px;
+}
+
+section {
+    text-align: center;
+    padding: 15px 10px;
+    background-color: lightgray;
+}
+
+#about-content {
+    text-align: left;
+}
+
+footer {
+    color: white;
+    background-color: #489ecb;
+}
+
+address {
+    margin-bottom: 0;
+}
+
+@media (min-width: 991.98px) {
+    .end-text {
+        text-align: end;
+    }
+
+    .start-text {
+        text-align: start;
+    } 
+}
