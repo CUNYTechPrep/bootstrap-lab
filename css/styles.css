@@ -32,3 +32,17 @@ p {
     color: white;
     padding: 20px;
 }
+
+.text-header {
+    background: rgb(0,0,0,0.5);
+    color: #fff;
+    padding: 75px 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.thumbnail {
+    position: relative;
+}
