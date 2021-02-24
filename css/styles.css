@@ -1,1 +1,51 @@
+.bg {
+    background: url("/img/milkbg.jpg");
+    height: 25em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
 
+.header-container {
+    width: 50%;
+    background-color: rgba(0,0,0,0.6);
+    height: 60%;
+    color: white;
+    
+}
+.vertical-center {
+    min-height: 100%;  
+    display: flex;
+    align-items: center;
+  }
+
+h3 {
+    color: black;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.bg-secondary {
+    background-color: #c9c9c9 !important;
+}
+
+.about-us{
+    font-size:2vw;
+}
+
+.cookiem {
+    padding-bottom: 2em;
+}
+
+.footer{
+    background: rgb(40, 146, 216);
+    color: white;
+}
+
+span{
+    background: red;
+    color:white;
+}
