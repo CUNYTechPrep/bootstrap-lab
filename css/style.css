@@ -1,0 +1,77 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h2{
+    text-align: center;
+    padding: 20px 0px;
+  }
+  
+  /* navbar */
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color : rgba(0, 0, 0, 0.8);
+  
+  }
+  
+  li{
+    display: inline;
+  }
+  
+  /* home */
+  #home{
+    position: relative;
+    color: white;
+  
+  }
+  
+  #home h1{
+    font-size: 80px;
+  }
+  
+  #home p{
+    font-size: 20px;
+  }
+  
+  .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     background: rgba(0, 0, 0, 0.7);
+     padding: 50px 30px;
+  }
+  
+  /* cookies */
+  
+  #cookies{
+      padding: 20px 0px;
+  }
+  #cookies img{
+      width: 240px;
+      height: 120px;
+      border-radius: 50%;
+  
+  }
+  
+  /* about */
+  
+  #about{
+    background-color: #e5e5e5;
+    padding: 20px 0px;
+  }
+  .cmonster-img{
+  
+  }
+  
+  /* contact */
+  
+  #contact{
+    text-align:center;
+    color: white;
+    background-color: #40a8c4;
+    padding: 20px 0px;
+  }
