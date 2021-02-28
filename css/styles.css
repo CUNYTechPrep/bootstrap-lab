@@ -1,1 +1,38 @@
 
+h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#title {
+    font-weight: 300;
+    font-size: 60px;
+    font-family: fantasy;
+}
+
+.navbar {
+    background-color: rgba(0,0, 0, 0.8);
+    height: 30px;
+    max-height: 30px;
+}
+
+.title-block {
+    background-color: rgba(0,0, 0, 0.7);
+    border-radius: 5px;
+}
+
+.about-us-section {
+    background-color: rgb(212, 212, 212);;
+}
+
+.footer{
+    background-color: rgb(0, 175, 228);
+}
+
+.header {
+    background-image: url(../img/milkbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 380px;
+}
