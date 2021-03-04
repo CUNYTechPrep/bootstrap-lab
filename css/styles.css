@@ -1,1 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto+Slab:wght@500&display=swap");
+body {
+  min-width: 50%;
+}
 
+img {
+  border-radius: 50%;
+}
+.header {
+  font-family: "Roboto Slab", serif;
+  background-image: url("../img/milkbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  height: 530px;
+}
+
+.storeHeader {
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  height: 60%;
+  width: 40%;
+  background-color: rgba(24, 24, 24, 0.6);
+  /* border: 10px dotted blue; */
+  text-align: center;
+  border-radius: 20%;
+}
+.text {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  height: 50%;
+  width: 60%;
+}
+
+.aboutUs {
+  font-family: "Quicksand", sans-serif;
+  background-color: rgba(128, 128, 128, 0.4);
+}
+
+.contactUs {
+  background-color: lightskyblue;
+}
