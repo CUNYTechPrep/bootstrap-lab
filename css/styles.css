@@ -1,1 +1,35 @@
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+img {
+    border-radius: 50%;
+    width: auto;
+    padding: 10px;
+}
+.card {
+    border: none;
+    align-items: center;
+    display: flex;
+    padding-bottom: 25px;
+    width: 18em;
+}
+h2 {
+    display: block;
+    width: auto;
+}
+.about {
+    margin-bottom: 0;
 
+}
+.contact {
+    padding: 50px;
+    background-color:aqua;
+    margin-bottom: 50px;
+}
+p{
+    font-family: 'Mukta', sans-serif;
+}
