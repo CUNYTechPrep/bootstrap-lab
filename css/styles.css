@@ -1,6 +1,7 @@
 .background{
-    background-image: url("/bootstrap-lab/img/cafe.jpg");
-    background-size: 100%;
+    background-image: url("/bootstrap-lab/img/cafe2.jpg");
+    background-size: cover;
+    height: 100%
 }
 .text-background{
     background-color: rgba(32, 32, 32, 0.4);
@@ -12,6 +13,9 @@
 @media only screen and (max-width: 770px) {
     .cm {
         display: none;
+    }
+    .img-fluid{
+        width: 50%;
     }
 }
 #new {
@@ -28,7 +32,8 @@ img {
     align-items: center;
     display: flex;
     padding-bottom: 25px;
-    width: 18em;
+    width: 30em;
+    flex-grow: 2;
 }
 h2 {
     display: block;
