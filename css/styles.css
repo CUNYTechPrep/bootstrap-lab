@@ -1,1 +1,65 @@
 
+body {
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+   }
+   
+   #cookie{
+       padding-top: 30px;
+   }
+   
+   #newTag{
+       width:30px;
+   }
+   
+   #banner{
+       background-image: url("../img/milkbg.jpg");
+       background-size:cover;
+       height: 450px;
+       width: 100%;
+   }
+   #banner .content{
+       background: rgba(0,0,0,.5);
+       position: relative;
+       top:75px;
+       width: 500px;
+       padding: 100px;
+       padding-right: 40px;
+       padding-left: 40px;
+       margin: 0 auto;
+       color:white;
+       font-size: large;
+   }
+   
+   #banner .content h1{
+       font-size: 80px;
+   }
+   
+   .image{
+       width: 80%;
+       border-radius: 50%;
+   }
+   
+   .container2{
+       background-color: rgb(200, 205, 207);   
+       margin-top: 30px;
+   }
+   
+   #aboutText{
+       text-align: left;
+       padding-top:30px;
+   
+       
+   }
+   
+   .contactInfo{
+       background-color:rgb(35, 189, 250);
+       color:white;
+       padding-top: 40px;
+       padding-bottom: 40px;
+   }
+   
+   .columnText{
+       padding-top:70px;
+   }
