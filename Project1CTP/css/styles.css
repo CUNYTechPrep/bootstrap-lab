@@ -1,0 +1,57 @@
+
+*{
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+.text-center h2 {
+    margin-top: 20px;
+}
+
+.bg-image {
+    margin-bottom: 50px;
+}
+.col-sm img {
+   border-radius: 50%;
+}
+
+.allCookies {
+    padding-top: 50px;
+}
+
+.allCookies .row {
+    padding: 50px 0px;
+
+}
+
+.allCookies .row .col-md-2 img {
+    border-radius: 50%;
+}
+
+.allCookies .row .col-md-3 img {
+    border-radius: 50%;
+}
+
+
+.cookieText {
+    position: relative;
+    text-align: justify;
+    padding-bottom: 50px;
+    left:215px;
+}
+.captionText {
+    position: relative;
+    text-align: center;
+    top: 50px;
+    right: 100px;
+}
+.cookies {
+    padding-bottom: 50px;
+}
+
+.aboutUs {
+    padding: 50px 0px;
+    background-color: powderblue;
+}
+.contactInfo {
+    background-color: rosybrown;
+    padding: 50px 0px;
+}
