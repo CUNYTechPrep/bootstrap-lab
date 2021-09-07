@@ -1,1 +1,75 @@
+header{
+    background-color:#333333;
+}
+
+h2{
+    padding-top:1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    padding-top:1em;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* hero section */
+.hero-img{
+    background-image: url("../img/milkbg.jpg");
+    background-size: cover;
+    background-position: cover;
+    height: 40em;
+    max-height: 100%;
+    max-width: 110%;
+    /*not sure why width doesn't go across when it's max 100%*/
+}
+
+.hero-txt{
+    background: rgba(0,0,0, 0.5);  
+    margin: auto;
+    color: white;
+    width: 50%;
+    height: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 4%;
+    border-radius: 3%;
+}
+
+.hero-img h1{
+    font-size: 400%;
+}
+
+.hero-img p{
+    font-size: 150%;
+}
+
+/* The Cookies*/
+
+.cookie-offering img{
+    border-radius: 50%;
+}
+
+/* About us*/
+
+.about-us{
+    background-color:#D3D3D3 ;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+
+.about-us p{
+    font-size: 135%;
+}
+
+/* Contact us  */
+.contact-us{
+    background-color: #19A0D0;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    color: white;
+}
 
