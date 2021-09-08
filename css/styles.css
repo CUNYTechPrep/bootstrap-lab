@@ -1,1 +1,49 @@
+.banner {
+  width: 100%;
+}
 
+.container {
+  justify-content: center;
+  text-align: center;
+}
+
+.container .row {
+  justify-content: center;
+  text-align: center;
+}
+
+.container .jumbotron {
+  background-image: url("https://www.thespruceeats.com/thmb/QduJuIxXikUPxWZoKzFYPbnWwO0=/3000x2001/filters:fill(auto,1)/CoffeeCookiesHERO-45809f60319c47cb876ce92bc319e6b4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.center-text {
+  justify-content: center;
+  text-align: center;
+}
+
+.left-text {
+  justify-content: left;
+  text-align: left;
+}
+
+.about-us{
+  margin-top: 18px;
+  background-color: gainsboro;
+  width: auto;
+}
+
+.contact-us{
+  margin-top: 18px;
+  margin-bottom: auto;
+  background-color: rgb(54, 132, 221);
+  color: white;
+  width: auto;
+}
+
+.card-style{
+  background-color: rgb(46, 46, 46);
+  width: 50%;
+  color: white;
+}
