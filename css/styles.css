@@ -11,6 +11,10 @@
   background-color: black;
 }
 
+#cookieStore {
+  background-color: grey;
+}
+
 .cookie {
   padding: 5px;
 }
