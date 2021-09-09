@@ -19,8 +19,6 @@
 
   position: absolute;
   top: 100px;
-  
-  font-family: 'glory';
 }
 
 .cookieHead {
@@ -34,13 +32,19 @@ img {
 
 .subHead {
   text-align: center;
-  padding-top: 40px 0px;
+  padding-top: 40px;
+}
+
+h3 {
+  font-size: 30px;
 }
 
 .cookie {
   padding: 15px;
   align-items: center;
   line-height: 2;
+  font-family: 'glory';
+  font-size: 20px;
 }
 
 .aboutUs {
