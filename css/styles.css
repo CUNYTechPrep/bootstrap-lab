@@ -32,7 +32,7 @@ img {
 
 .subHead {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 40px 0px;
 }
 
 .cookie {
@@ -43,12 +43,12 @@ img {
 
 .aboutUs {
   background-color: lightgrey;
-  padding: 40px 180px;
+  padding: 50px 180px;
 }
 
 .contactUs {
   background-color: #1ba1d4;
-  padding: 40px 180px;
+  padding: 50px 180px;
   color: white;
   align-items: baseline;
 }
