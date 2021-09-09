@@ -10,6 +10,15 @@
   color: white;
 }
 
+img {
+  border-radius: 50%;
+}
+
+.subHead {
+  text-align: center;
+  padding: 30px;
+}
+
 #cookieStore {
 /*   background-color: grey; */
   padding: 50px 100px;
@@ -17,7 +26,7 @@
 }
 
 .cookie {
-  padding: 5px;
+  padding: 15px;
 }
 
 .aboutUs {
