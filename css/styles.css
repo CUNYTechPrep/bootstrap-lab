@@ -1,1 +1,9 @@
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center safe;
+  align-items: baseline;
+  
+}
