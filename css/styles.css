@@ -22,11 +22,11 @@
 
 .aboutUs {
   font-family: "Quicksand", sans-serif;
-  background-color: rgba(128, 128, 128, 0.4);
+  background-color: lightgrey;
   padding: 30px 180px;
 }
 
 .contactUs {
-  background-color: lightskyblue;
+  background-color: skyblue;
   padding: 30px 180px;
 }
