@@ -6,6 +6,11 @@
   position: relative;
   justify-content: center;
   height: 490px;
+  text-align: center;
+}
+
+.cookie {
+  padding: 5px;
 }
 
 .aboutUs {
