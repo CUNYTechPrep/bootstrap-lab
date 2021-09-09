@@ -8,12 +8,13 @@
   height: 490px;
   text-align: center;
   color: white;
-  background-color: black;
 }
 
 #cookieStore {
-/*   background-color: grey;
-  margin: 50px 100px; */
+  background-color: grey;
+/*   background-size: initial */
+/*   margin: 50px 100px; */
+/*   line-height: 3; */
 }
 
 .cookie {
