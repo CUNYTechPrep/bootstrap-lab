@@ -1,1 +1,70 @@
 
+*{
+    font-family: 'Trebuchet MS', serif;
+}
+
+.theCookies{
+    padding-top:40px;
+}
+
+.bg-image {
+    background-color: rgb(211, 174, 228);
+}
+.col-sm img {
+   border-radius: 50%;
+}
+
+.allCookies {
+    padding-top: 50px;
+}
+
+.allCookies .row {
+    padding: 50px 0px;
+
+}
+
+.allCookies .row .col-md-2 img {
+    border-radius: 50%;
+}
+
+.allCookies .row .col-md-3 img {
+    border-radius: 50%;
+}
+
+.border{
+    border: 1px black;
+    background-color: black;
+    text-align: center;
+}
+
+.cookieHeader {
+    position: relative;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left:130px;
+    padding-right:150px;
+   
+    color: rgb(255, 255, 255);
+    /* background-color:rgba(175, 166, 166, 0.055);  */
+}
+.captionText {
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    /* padding-top: 10px; */
+    padding-left: 10px;
+}
+.cookies {
+    padding-bottom: 50px;
+    background-color: rgb(211, 174, 228);
+}
+
+.aboutUs {
+    padding: 50px 0px;
+    background-color: rgb(224, 233, 223);
+}
+.contactInfo {
+    background-color: rgb(241, 233, 184);
+    padding: 50px 0px;
+}
