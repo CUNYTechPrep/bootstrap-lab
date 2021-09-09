@@ -11,10 +11,9 @@
 }
 
 #cookieStore {
-  background-color: grey;
-/*   background-size: initial */
-/*   margin: 50px 100px; */
-/*   line-height: 3; */
+/*   background-color: grey; */
+  padding: 50px 100px;
+  line-height: 3;
 }
 
 .cookie {
