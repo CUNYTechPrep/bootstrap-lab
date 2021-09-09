@@ -3,11 +3,19 @@
   background-image: url("../img/milkbg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
-  justify-content: center;
-  height: 490px;
+  height: 500px;
   text-align: center;
   color: white;
+  postion: relative;
+}
+
+#cookieStore {
+/*   background-color: grey; */
+  padding: 50px 100px;
+  line-height: 3;
+  postion: relative;
+  top: 100px;
+
 }
 
 img {
@@ -19,15 +27,10 @@ img {
   padding-top: 40px;
 }
 
-#cookieStore {
-/*   background-color: grey; */
-  padding: 50px 100px;
-  line-height: 3;
-}
-
 .cookie {
   padding: 15px;
   align-items: center;
+  line-height: 2;
 }
 
 .aboutUs {
