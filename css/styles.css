@@ -1,1 +1,71 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
 
+.intro {
+  background: url("../img/milkbg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.text {
+  color: white;
+  display: inline-block;
+  margin: 5em;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5em;
+}
+
+.text h1 {
+  font-size: 5em;
+}
+
+.text p {
+  font-size: 25px;
+}
+
+.new .new-text {
+  color: white;
+  background-color: #d95551;
+  display: block;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: medium;
+  padding: 5px;
+  margin: 0px;
+}
+
+#page {
+  text-align: center;
+}
+
+.cookies .row img {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.cookies {
+  margin-bottom: 2em;
+}
+
+.about {
+  background-color: #d3d3d3;
+  display: inline-block;
+}
+
+.about img {
+  float: left;
+}
+
+.contact {
+  color: white;
+  background-color: #19a0d0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
