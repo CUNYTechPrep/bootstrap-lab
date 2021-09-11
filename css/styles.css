@@ -1,1 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Reggae+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+ #milkbg {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    /* clip-path: inset(100px 0px 100px 0px); */
+    /* margin: -100px 0px; */
+}
+
+.text-wrapper {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    width: 500px;
+    background: rgb(52, 58, 64);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 5px;
+    font-size: 2rem;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+}
+
+.text-wrapper h1 {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+body h2, .cookie-content h3 {
+    font-family: 'Reggae One', cursive;
+}
+
+.contact {
+    background-color: #19a0d0;
+}
+
+.about {
+    background-color: #d3d3d3;
+}
+
+.cookie-content img {
+    width: 100%;
+}
+
+.cookie-content h3 {
+    font-weight: 500;
+}
+
+.cookie-content p {
+    font-size: 1.25rem;
+}
+
+.new {
+    background-color: #d95551;
+    color: white;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.contact h2 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+.contact div {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.about h2 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.about div {
+    font-weight: 500;
+    font-size: 1rem;
+}
+/* @media (min-width: 620px) { /*mobile first*/
+    /* body {
+        background-color: red;
+    }
+} */
+
+@media (max-width: 991px) { /*desktop first*/
+    .cookies-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cookie-content img {
+        width: 50%;
+    }
+
+}
+
+
 
