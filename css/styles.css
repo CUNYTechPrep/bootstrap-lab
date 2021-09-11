@@ -1,1 +1,78 @@
+.cookie-img{
 
+    border-radius: 50%;
+    /* float: left; */
+    /* shape-outside: margin-box; */
+    width: 75%;
+}
+
+ .address,.paragraph, .cookies-h2{
+    text-align: center;
+    font-family: 'Kaisei Tokumin', serif;
+} 
+.top-img{
+   height:100%;
+
+    width: 100%;
+
+    display:block;
+
+    position:relative;
+}
+
+.milk-img{
+    width:100%;
+
+    max-height:550px;
+
+    display: block;
+}
+.cookie-store{
+    position: absolute;
+    top:200px;
+    left: 550px;
+    color:white;
+    background-color: black;
+    opacity: 0.7;
+    padding: 50px;
+    border-radius: 10%;
+}
+
+.cookies-h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.about-container{
+    background-color: #C0C0C0;
+    
+    padding: 50px;
+    
+}
+.about-img{
+    display: flex;
+    
+    
+    
+}
+.about-content{
+   padding-top: 20px;
+   padding-left: 100px;
+    text-align: left;
+   
+    
+}
+.monster{
+    align-items: center;
+}
+
+.footer{
+    background-color:#00ADEF;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container{
+    align-items: center;
+}
