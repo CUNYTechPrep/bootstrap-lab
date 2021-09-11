@@ -1,1 +1,64 @@
+.header {
+/*   font-family: "Roboto Slab", serif; */
+  background-image: url("../img/milkbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 480px;
+  color: white;
+}
 
+#cookieStore {
+  padding: 50px 100px;
+  width: 580px;
+  height: 300px;
+  background-color: rgba(0,0,0,0.5);
+
+  line-height: 2;
+  font-size: 20px;
+  text-align: center;
+
+  position: absolute;
+  top: 100px;
+}
+
+.cookieHead {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.subHead {
+  text-align: center;
+  padding-top: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.cookie {
+  padding: 15px;
+  align-items: center;
+  line-height: 2;
+  font-family: 'glory';
+  font-size: 20px;
+}
+
+.aboutUs {
+  background-color: lightgrey;
+  padding: 50px 180px;
+}
+
+.contactUs {
+  background-color: #1ba1d4;
+  padding: 50px 180px;
+  color: white;
+  align-items: baseline;
+}
+
+.container {
+  padding-bottom: 50px;
+}
