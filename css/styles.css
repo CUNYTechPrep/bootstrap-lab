@@ -1,1 +1,125 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
 
+body {
+  background-color: #ffe5d9;
+}
+
+.main-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 55px;
+  color: #7e473e;
+  text-align: center;
+}
+
+.med-title {
+  font-size: 35px;
+  color: #7e473e;
+}
+
+footer {
+  overflow: hidden;
+  background-color: #fec5bb;
+  height: 200px;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+  color: #7e473e;
+  font-family: "Nunito", sans-serif;
+}
+
+.centered-box {
+  margin-top: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image-box-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.main-header-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 90px;
+  color: #7e473e;
+  text-align: center;
+}
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+  background-color: #d8e2dc;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 80%;
+}
+.make-center {
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.about {
+  margin-top: 5%;
+  background-color: #d8e2dc;
+  overflow: hidden;
+  min-height: 500px;
+}
+
+.cookies {
+  border-radius: 1500px;
+  width: 270px;
+  height: 200px;
+}
+
+img.cookies {
+  display: block;
+  margin: auto;
+}
+
+.row {
+  margin-top: 5%;
+}
+#cookie-logo {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+  .main-header-title {
+    font-size: 45px;
+  }
+
+  #coffee-shop {
+    height: 800px;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-header-title {
+    font-size: 30px;
+  }
+
+  #coffee-shop {
+    height: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .main-header-title {
+    font-size: 30px;
+  }
+
+  #coffee-shop {
+    height: 500px;
+  }
+}
