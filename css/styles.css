@@ -1,1 +1,53 @@
+body {
+    text-align: center;
+}
 
+.breadcrumb {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+#header-banner {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+header img {
+    width: 100%;
+    max-height: 750px;
+}
+
+#header-text {
+    background-color: rgba(0,0,0,0.5);
+    color: white; 
+    padding: 6% 3%; 
+    border-radius: 10px;
+    /* font-size: 1rem; */
+    position: absolute;
+}
+
+#header-text h1 {
+    font-size: 3rem;
+}
+
+main {
+    padding: 10px 10px;
+}
+
+section {
+    text-align: center;
+    padding: 15px 10px;
+    background-color: lightgray;
+}
+
+address {
+    padding: 10px 10px;
+    color: white;
+    background-color: deepskyblue;
+}
+
+#aboutus-text {
+    text-align: left;
+}
