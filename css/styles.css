@@ -1,1 +1,38 @@
+#banner{
+    background-image: url("../img/milkbg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 430px;
+}
 
+#banner .content{
+    position: relative;
+    top: 50px;
+    width: 450px;
+    height: 100px;
+    margin: 0 auto;
+    color:white;
+    background: rgba(0, 0, 0, .5);
+
+}
+
+#about{
+    background: #BEBEBE;
+    height: 300px;
+  
+}
+
+#contact{
+    background: #29b6f6;
+    color: white;
+}
+
+.statement{
+    font-family: 'Dancing Script', cursive;
+}
+
+.content h1{
+    font-weight: bold;
+}
