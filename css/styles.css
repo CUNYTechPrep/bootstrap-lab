@@ -1,1 +1,76 @@
+@media only screen and (max-width: 991px){
+    img {
+        width: 50%;
+    }
 
+    .row:first-child {
+        background-image: url("../img/milkbg.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 20em;
+    }
+    
+    .row:first-child .col-8 {
+        background-color: rgba(0,0,0,0.6);
+        color: white;
+        padding: 2em 1em;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    img {
+        width: 100%;
+    }
+
+    .row:first-child {
+        background-image: url("../img/milkbg.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 30em;
+    }
+    
+    .row:first-child .col-8 {
+        background-color: rgba(0,0,0,0.6);
+        color: white;
+        padding: 6em 2em;
+    }
+}
+
+html {
+    font-size: 1em;
+}
+
+.row:nth-child(7) {
+    background-image: url("../img/cmonster.png");
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    background-color: #dcdcdc;
+    padding: 1em 0em 6em 0em;
+}
+
+.row:nth-child(7) div div {
+    padding-left: 15em;
+}
+
+.row:last-child {
+    background-color: #00adef;
+    color: white;
+    padding: 1em 0em;
+}
+
+.row:last-child .col div {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Alfa Slab One', cursive;
+}
