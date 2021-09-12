@@ -1,1 +1,90 @@
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+}
+h3 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+p {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+.top-image {
+    width: 100%;
+}
+
+div.col-12.px-0 {
+    padding-top: 0;
+}
+
+.cookie-store-title {
+    text-align: center;
+}
+
+.cookie-title {
+    text-align: center;
+    padding: 10px 0 50px;
+}
+
+span.badge.badge-secondary {
+    color: white;
+    background-color: red;
+}
+
+.col-12 {
+    padding: 30px 10px;
+}
+
+.img-c {
+    border-radius: 50%;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+div.alert.alert-dark {
+    width: 37%;
+    margin-top: 50px;
+    padding: 40px 5px;
+    text-align: center;
+    background-color: rgb(105,105,105, 0.4);
+    border-color: rgb(105,105,105);
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 30%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* left: 100;
+    right: 0; */
+}
+
+.about {
+    max-width: 99vw;
+    margin-top: 50px;
+    padding: 20px 5px;
+    margin-right: 0;
+    text-align: center;
+    background-color: lightgray;
+}
+div.row {
+    margin-right: 0;
+}
+
+.the-footer {
+    padding: 30px 0;
+    background-color: royalblue;
+    text-align: center;
+    color: white;
+}
+
+div.row.row-cols-6 {
+    max-width: 70vw;;
+}
 
