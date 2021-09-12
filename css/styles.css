@@ -40,29 +40,15 @@ html {
     font-size: 1em;
 }
 
-/* .row:first-child {
-    background-image: url("../img/milkbg.jpg");
-    background-size: cover;
-    background-position: center center;
-    height: 30em;
-}
-
-.row:first-child .col-6 {
-    background-color: rgba(0,0,0,0.6);
-    color: white;
-    padding: 6em 2em;
-} */
-
-.row:nth-child(4) {
+.row:nth-child(7) {
     background-image: url("../img/cmonster.png");
     background-repeat: no-repeat;
     background-position: 2% 50%;
     background-color: #dcdcdc;
-    padding: 1em 0em 5em 0em;
+    padding: 1em 0em 6em 0em;
 }
 
-.row:nth-child(4) div div {
-    color: red;
+.row:nth-child(7) div div {
     padding-left: 15em;
 }
 
@@ -86,5 +72,5 @@ h1, h2, h3, p {
 
 h1 {
     font-size: 3em;
-    font-weight: bold;
+    font-family: 'Alfa Slab One', cursive;
 }
