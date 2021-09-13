@@ -1,1 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
+* {
+	margin: 0;
+	padding: 0;
+	max-width: 100% !important;
+	text-align: center;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+
+.nav {
+    background-color: black;
+}
+
+.nav-link {
+	border-left: solid #fff 1px;
+}
+
+
+header {
+	align-items: center;
+    background-image: url('../img/milkbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	color:  white;
+	display: flex;
+	height: 450px;
+	justify-content: center;
+    position: relative;
+}
+
+.header-content {
+	background: rgba(0,0,0,0.5);
+	border-radius: 5%;
+	margin: auto;
+	padding: 80px 35px;
+}
+
+.header-text {
+	font-size: 20px;
+	opacity: 1;
+}
+
+
+.cookies {
+	padding: 0 60px 0 50px;
+}  
+  
+.cookies-title {
+	padding: 30px;
+}
+
+.cookie-description {
+    align-self: center;
+}
+
+
+.about-us {
+	background: #C0C0C0;
+	margin-top: 80px;
+}
+  
+.about-us-description {
+	text-align: left;
+}
+  
+.about-us-image {
+	padding-top: 20px;
+	text-align: left;
+}
+  
+.about-us-title {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+footer {
+	background: #1E90FF;
+	color: white;
+	padding: 16px 0;
+}
