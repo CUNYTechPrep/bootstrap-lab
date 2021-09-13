@@ -56,24 +56,25 @@ img {
     padding-bottom: 2em;
 }
 
+@media only screen and (min-width: 630px) {
 
-div .order-first h3{
-    text-align: right;
+    div .order-first h3{
+        text-align: right;
+    }
+
+    div .order-first p{
+        text-align: right !important;
+    }
+
+
+    div .order-last h3{
+        text-align: left;
+    }
+
+    div .order-last p{
+        text-align: left !important;
+    }
 }
-
-div .order-first p{
-    text-align: right !important;
-}
-
-
-div .order-last h3{
-    text-align: left;
-}
-
-div .order-last p{
-    text-align: left !important;
-}
-
 
 .cookie-desc-text{
     padding-top: 2em;
@@ -83,6 +84,7 @@ div .order-last p{
     background-color: #d3d3d3;
     text-align: center;
     padding: 1em;
+    font-family: 'Roboto', sans-serif;
 }
 
 .about-us h2{
