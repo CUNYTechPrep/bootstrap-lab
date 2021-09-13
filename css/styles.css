@@ -19,20 +19,24 @@ h2{
     background-size: cover;
     height: 42em;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-header-float{
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 4em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4em 1em 4em 1em;
     color: white;
-    width: 50%;
+    width: 40%;
     text-align: center;
-    margin-top: ;
 }
 
 .top-header-float h1{
     font-weight: bold;
-    font-size: 3.5em;
+    font-size: 4em;
 }
 
 img {
