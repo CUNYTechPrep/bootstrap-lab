@@ -88,3 +88,13 @@ img {
     background-color: #19A0D0;
     color: white;
 }
+
+/* Responsive settings for screens less than or equal to 600px */
+@media only screen and (max-width: 630px) {
+    .top-header-float h1{
+        font-weight: bold;
+        font-size: 8vw;
+        padding-bottom: none;
+        text-align: center;
+    }
+}
