@@ -1,1 +1,32 @@
 
+body{
+    font-family: 'Dancing Script', cursive;
+}
+
+.text-block {
+    border-radius: 15px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+  }
+
+  h0{
+    font-size: 50px;
+
+  }
+
+  .AboutUsSpacing{
+      margin-left: 230px;
+  }
+  
+
