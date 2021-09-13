@@ -56,6 +56,11 @@ img {
     padding-bottom: 2em;
 }
 
+.cookie-desc-text{
+    align-items: center;
+    padding-top: 2em;
+}
+
 .about-us{
     background-color: #d3d3d3;
     text-align: center;
