@@ -1,1 +1,129 @@
+h1{
+    text-align: center;
+    padding: 0.2em;
+}
 
+p{
+    text-align: center;
+    padding: 1em;
+}
+
+h2{
+    text-align: center;
+    padding: 0.5em;
+}
+
+.top-header{
+    background-image: url('../img/milkbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 42em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-header-float{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4em 1em 4em 1em;
+    color: white;
+    width: 40%;
+    text-align: center;
+}
+
+.top-header-float h1{
+    font-weight: bold;
+    font-size: 4em;
+    padding-bottom: none;
+}
+
+.top-header-float p{
+    font-weight: lighter;
+    font-size: large;
+}
+
+img {
+    border-radius: 50%;
+    height: 170px;
+    width: auto;
+}
+
+.container-fluid{
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+@media only screen and (min-width: 630px) {
+
+    div .order-first h3{
+        text-align: right;
+    }
+
+    div .order-first p{
+        text-align: right !important;
+    }
+
+
+    div .order-last h3{
+        text-align: left;
+    }
+
+    div .order-last p{
+        text-align: left !important;
+    }
+}
+
+.cookie-desc-text{
+    padding-top: 2em;
+} 
+
+.about-us{
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-us h2{
+    padding-bottom: none;
+}
+
+.about-us-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us img{
+    padding-right: 1em;
+}
+
+.about-us-text div{
+    text-align: left;
+    font-weight: 200;
+}
+
+
+.contact-info{
+    text-align: center;
+    padding-bottom: 1em;
+    background-color: #19A0D0;
+    color: white;
+}
+
+/* Responsive settings for screens less than or equal to 600px */
+@media only screen and (max-width: 630px) {
+    .top-header-float h1{
+        font-weight: bold;
+        font-size: 8vw;
+        padding-bottom: none;
+        text-align: center;
+    }
+
+    .row{
+        padding-bottom: 1em;
+    }
+}
