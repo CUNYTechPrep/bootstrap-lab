@@ -37,6 +37,12 @@ h2{
 .top-header-float h1{
     font-weight: bold;
     font-size: 4em;
+    padding-bottom: none;
+}
+
+.top-header-float p{
+    font-weight: lighter;
+    font-size: large;
 }
 
 img {
@@ -79,4 +85,6 @@ img {
 .contact-info{
     text-align: center;
     padding-bottom: 1em;
+    background-color: #19A0D0;
+    color: white;
 }
