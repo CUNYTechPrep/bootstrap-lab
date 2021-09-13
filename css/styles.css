@@ -56,10 +56,28 @@ img {
     padding-bottom: 2em;
 }
 
-.cookie-desc-text{
-    align-items: center;
-    padding-top: 2em;
+
+div .order-first h3{
+    text-align: right;
 }
+
+div .order-first p{
+    text-align: right !important;
+}
+
+
+div .order-last h3{
+    text-align: left;
+}
+
+div .order-last p{
+    text-align: left !important;
+}
+
+
+.cookie-desc-text{
+    padding-top: 2em;
+} 
 
 .about-us{
     background-color: #d3d3d3;
@@ -101,5 +119,9 @@ img {
         font-size: 8vw;
         padding-bottom: none;
         text-align: center;
+    }
+
+    .row{
+        padding-bottom: 1em;
     }
 }
