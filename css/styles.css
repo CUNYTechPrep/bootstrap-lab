@@ -51,9 +51,30 @@ img {
 }
 
 .about-us{
+    background-color: #d3d3d3;
     text-align: center;
     padding: 1em;
 }
+
+.about-us h2{
+    padding-bottom: none;
+}
+
+.about-us-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us img{
+    padding-right: 1em;
+}
+
+.about-us-text div{
+    text-align: left;
+    font-weight: 200;
+}
+
 
 .contact-info{
     text-align: center;
