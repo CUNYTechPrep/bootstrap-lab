@@ -1,1 +1,39 @@
+h1{
+    text-align: center;
+    padding: 0.2em;
+}
 
+p{
+    text-align: center;
+    padding: 1em;
+}
+
+h2{
+    text-align: center;
+    padding: 0.5em;
+}
+
+.top-header{
+    background-image: url('../img/milkbg.jpg');
+}
+
+img {
+    border-radius: 50%;
+    height: 170px;
+    width: auto;
+}
+
+.container-fluid{
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.about-us{
+    text-align: center;
+    padding: 1em;
+}
+
+.contact-info{
+    text-align: center;
+    padding-bottom: 1em;
+}
