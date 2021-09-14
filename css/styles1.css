@@ -1,0 +1,76 @@
+/* Bootstrap its own fonts*/
+body {
+    font-family: 'Ubuntu', sans-serif !important ;
+}
+main,
+    section,
+        footer {
+    text-align: center !important;
+}
+/* Nav */
+nav {
+    background-color: black;
+    color: white;
+}
+/* Header */
+.header {
+    background-image: url('../img/milkbg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 600px;
+}
+.overlay {
+    text-align: center;
+    top: 25%;
+    width: 50%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.header-content {
+    position: relative;
+    margin: auto;
+    padding: 100px;
+    color: white;
+    border-radius: 2%;
+}
+
+/* Main */
+h2 {
+    padding-top: 25px;
+}
+/* Bootstrap adds a margin-bottom of 1rem or 16px under a ul element*/
+ul {
+    margin-bottom: 0 !important;
+}
+li {
+    display: inline;
+}
+.cookies img {
+    
+    border-radius: 50%;
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+#cookie-monster {
+    float: left;
+    margin-right: 30px;
+}
+
+.about-content {
+    padding: 0px 50px 60px 50px;
+    margin: 0;
+    background-color: #DDDDDD;
+}
+.about-content p{
+    padding: 10px 20px;
+    text-align: justify;
+    margin: 0;
+}
+.contact-content {
+    background-color: #3DB2FF;
+}
+.contact-content p {
+    margin: 0;
+}
