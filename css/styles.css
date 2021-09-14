@@ -1,1 +1,28 @@
+*{
+    text-align: center;
+}
 
+.row{
+    position: relative;
+}
+
+.cookies{
+    margin-bottom: 10px;
+}
+
+.about{
+    background: rgba(211,211,211,255);
+}
+
+.contact{
+    background: rgba(25,160,207,255);
+    color: white;
+}
+
+.new{
+    display: inline-block;
+    color: white;
+    background: red;
+    padding-left: 3px;
+    padding-right: 3px;
+}
