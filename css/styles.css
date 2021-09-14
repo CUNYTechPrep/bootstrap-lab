@@ -1,1 +1,43 @@
+.center{
+    text-align: center;
+    
+}
+.top{
 
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+
+}
+.topTextBox{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(8,8,8,0.5);
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 3%;
+    padding-right: 3%;
+      
+}
+
+.auText{
+    background-color: rgba(211,211,211);
+    padding:5%;
+    
+    
+}
+.auImage{
+   float:left;
+
+}
+.bottom{
+    background-color: rgb(53, 183, 235);
+    margin-top: 0;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
