@@ -1,1 +1,21 @@
 
+#imageHeader{
+    background-image: url("../img/milkbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+#headerRow{
+    height: 400px;
+}
+
+#headerContainer{
+    background-color:rgba(0, 0, 0, 0.479);
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
