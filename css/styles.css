@@ -1,1 +1,60 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    text-align: center;
+}
+
+.introBG{
+    width: 100%;
+    max-height: 750px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    position:relative;
+}
+
+header{
+    font-family: 'Poppins', sans-serif;
+    color: white; 
+    padding: 5em; 
+    top: 10em;
+    width: 50%;
+    margin: auto;
+    left: 25%;
+    border-radius: 10px;
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+main{
+    position: inherit;
+    padding-top: 2em;
+}
+
+#about{
+    background-color: gainsboro;
+    padding:2em;
+}
+
+footer{
+    background-color:  rgb(52, 190, 245);
+    color:white;
+    padding:2em;
+    width:100%;
+}
+
+#lorem{
+    text-align: left;
+    font-size: large;
+}
+
+#new{
+    font-family: 'Poppins:wght@300;500', sans-serif;
+    color: white;
+    background-color: red;
+    font-size: medium;
+    display:inline;
+    padding: 3px;
+    border-radius: 4px;
+}
