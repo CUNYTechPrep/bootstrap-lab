@@ -1,1 +1,101 @@
+/* Modified by Andaiye Wurm */
 
+
+.container img{
+
+    max-width: 250px;
+   
+}
+
+h1, h2, p {
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h3 {
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#pageTop{
+
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.gray{
+
+    margin-top: 50px;
+    background-color: rgb(201, 201, 201);
+    height: 320px;
+
+}
+
+.blue{
+
+    background-color: rgb(98, 176, 248);
+    height: 170px;
+    color: white;
+
+}
+
+.text1 {
+
+    text-align: center;
+    margin-top: 20px;
+    padding-right: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.text2 {
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#cmon{
+
+  display: block;
+  float: left;
+  background-color: rgb(201, 201, 201);
+
+}
+
+.stay {
+
+    background-image: url('../img/milkbg.jpg');
+    background-size: cover;
+    background-position: inherit;
+    height: 300px;
+    width: 100%;
+    margin: auto;
+   
+}
+
+.move {
+
+    background-color: rgba(0, 0, 0, 0.548);
+    margin: 30px 200px 30px 200px;
+    border-radius: 10px;
+    color: white;
+    padding: 0 10px 0 10px;
+    
+
+}
+
+span {
+
+    background-color: rgb(218, 64, 64);
+    color: white;
+    border-radius: 8px;
+    font-size: .8em;
+    padding: 0 5px 0 5px;
+
+}
