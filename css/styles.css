@@ -6,6 +6,10 @@
     background-color: lightgray;
 }
 
+#contact{
+    background-color: aqua;
+}
+
 .header-container{
     position: relative;
     text-align: center;
