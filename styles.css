@@ -1,0 +1,81 @@
+body{
+    font-family:'Noto Sans';
+	
+}
+
+.header{
+	background-image: url("../img/milkbg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+
+}
+/*.menu{
+	display: flex;
+	justify-content: space-between;
+}*/
+.idx{
+	border-left: 1px solid white;
+	padding: 2px 1%;
+}
+.cookie{
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 120px 40px; 
+  margin-top: 50px;
+  margin-right: 5%;
+  color: white;
+}
+.cookie h1{
+ font-size: 5em;
+}
+
+.cookie p{
+ font-size: 1.5em;
+}
+h2{
+	text-align: center;
+	font-size: 300%;
+}
+.content img{
+	border-radius: 50%;
+}
+.content {
+	text-align: center;
+	width: 99%
+}
+.content h3 {
+	font-size: 200%;
+}
+.newlogo{
+	background: rgb(204, 41, 0);
+	width: 15%;
+	margin-left: 42%;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+}
+.aboutus{
+	background: rgb(217, 217, 217);
+	font-size: 130%;
+	display: inline-block;
+}
+.aboutus h2{
+	text-align: center;
+	font-size: 200%;;
+}
+.aboutus img{
+	float: left;
+}
+.contact{
+	background: rgb(0, 184, 230);
+	text-align: center;
+	color: white;
+}
+.contact p{
+	font-size: 200%;
+}
+.contact h2{
+	font-size: 2em;
+}
