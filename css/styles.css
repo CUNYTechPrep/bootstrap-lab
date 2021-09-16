@@ -1,1 +1,25 @@
+body {
+    font-size: 25px;
+    background-color: powderblue;
+    font-family: 'Glory', sans-serif;
+}
 
+img {
+    border-radius: 50%;
+  }
+ 
+#contactUs{
+    background-color:aqua
+}
+
+#cookieStore{
+    background-color:brown
+}
+
+#aboutUs {
+    background-color:gray
+}
+
+.content{
+    text-align: center;
+}
