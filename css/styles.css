@@ -1,1 +1,12 @@
+#cookies h2 {
+  margin: 30px 0;
+}
 
+#cookies img {
+  border-radius: 100%;
+}
+
+#about h2,
+#contact h2 {
+  margin-top: 30px;
+}
