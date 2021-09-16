@@ -1,1 +1,74 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+h3{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h1{
+  font-size: 3rem;
+}
+.top{
+  padding: 2%;
+}
+.cookies-img{
+  border-radius: 50%;
+width: 50%;
+padding: 2% 0%;
+}
+
+.information{
+  color: white;
+  font-weight: 700;
+  width: 500px;
+  margin: auto;
+
+   text-align: center;
+    padding: 70px 0;
+    background-color: black;
+  opacity: .7;
+  position: relative;
+    top: 10%;
+}
+.cookie{
+  text-align: center;
+}
+#heading{
+  background-image: url('../img/milkbg.jpg');
+  height: 550px;
+  width: 100%;
+background-size: cover;
+
+}
+#middle{
+  padding-bottom: 2%;
+}
+#contact{
+
+  padding-bottom: 1%;
+  background-color: #00BFFF;
+}
+#about{
+  background-color: #C8C6C6;
+  height: 350px;
+
+}
+.monster{
+  float: left;
+  margin-right: 30px;
+}
+.lorem{
+  text-align: left;
+}
+.address{
+  text-align: center;
+  color: white;
+}
