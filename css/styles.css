@@ -1,1 +1,17 @@
+#Title {
+	text-align: center;
+}
 
+h2 {
+	text-align: center;
+}
+
+img {
+  border-radius: 50%;
+   max-width: 95%;
+  height: auto;
+}
+
+#address {
+	text-align: center;
+}
