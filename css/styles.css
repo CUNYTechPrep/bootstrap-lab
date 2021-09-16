@@ -2,6 +2,16 @@
     text-align: center;
 }
 
+.nav{
+    margin-bottom: 0;
+}
+
+.nav-link{
+    margin: 1%;
+    padding: 0;
+}
+
+
 
 .bg-img{
     background-image: url('/img/milkbg.jpg');
