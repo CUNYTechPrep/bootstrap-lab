@@ -1,1 +1,23 @@
+.container {
+  position: relative;
+}
 
+/* Bottom right text */
+.text-block {
+ 
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+Opacity: 40%;
+}
+Img{
+Border-radius: 50%;
+}
+.responsive{
+Border-radius: 80%;
+Background-color: black;
+}
