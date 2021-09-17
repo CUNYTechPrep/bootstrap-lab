@@ -46,12 +46,31 @@
   text-align: center;
   font-size: 4rem;
   font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 
 .motto {
   color: white;
   text-align: center;
   font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+
+.cookieName {
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1.5rem;
+}
+
+.cookieDescription {
+  color: black;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
 }
 
 .aboutSection {
@@ -72,16 +91,23 @@
 .aboutBox {
   display: flex;
   flex-direction: column;
+}
 
-  /* width: 100vw; */
+.aboutHeader {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-align: center;
 }
 
 .aboutText {
-  /* width: 900px; */
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-align: center;
 }
 
 .footer {
   display: flex;
+  font-family: "Poppins", sans-serif;
   align-items: center;
   flex-direction: column;
   width: 100vw;
