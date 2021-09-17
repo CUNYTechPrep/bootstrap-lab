@@ -1,1 +1,104 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  /* // Extra small devices (portrait phones, less than 576px)
+  // No media query for `xs` since this is the default in Bootstrap
+  
+  // Small devices (landscape phones, 576px and up) */
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.container{
+    position:relative;
+    padding: 0%;
+}
 
+.no-padding {
+    padding: 0 !important;
+}
+title{
+    
+    text-align: center;
+  
+}
+h1{
+    text-align: center;
+}
+.container-fluid{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.text-block{
+    position: absolute;
+    bottom:500px ;
+    top: 40px;
+    left: 250px;
+    right: 250px;
+    align-content: center;
+    background-color:black;
+    opacity: 0.5;
+    color: white;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    margin-left: 0%;
+    margin-right: 0%;
+
+
+}
+.box{
+    position: absolute;
+
+    background-color:teal;
+    color: white;
+    /* width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 10px; */
+    text-align: center;
+    width: 100%;
+    padding: auto;
+
+
+
+
+}
+/* body {
+    overflow-x:hidden;
+  } */
+.oval{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 0%;
+    width: 250px;
+    height: 200px;
+    bottom: 20%;
+    
+}
+
+/* .rounded-circle{
+    border: 1px solid;
+    border-radius: 10%;
+    width: 20px;
+    height: 20px;
+    bottom: 20%;
+    } */
+.block{
+    position: absolute;
+    background-color: grey;
+    color: white;
+    text-align:center;
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+/*     
+    width: 100%;
+    left:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    top:10%; */
+    /* bottom: -200%;
+    padding-top: 10px; */
+   /* // padding-bottom: 10px; */
+    
+}
