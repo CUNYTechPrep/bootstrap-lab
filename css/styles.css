@@ -1,3 +1,7 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .cookie-img {
   display: block;
   border-radius: 50%;
@@ -41,7 +45,7 @@
 }
 
 .about-us-section {
-  /* display: flex; */
+  display: flex;
   background: lightgray;
   padding: 1rem;
   /* align-items: center; */
