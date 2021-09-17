@@ -1,0 +1,28 @@
+/* custom-font added*/
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.banner-pic {
+  width: 100%;
+  height: auto;
+}
+
+/*affects the pictures border*/
+.cookies-pic {
+  border-radius: 50%;
+}
+.about-us {
+  background-color: lightgrey;
+}
+.contact-us {
+  background-color: lightskyblue;
+}
+
+/* when the screen reaches large size change the width of the images*/
+@media only screen and (min-width: 992px) {
+  .cookies-pic {
+    border-radius: 50%;
+    width: 100%;
+  }
+}
