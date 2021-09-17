@@ -1,1 +1,117 @@
+.imageBorder {
+  border-radius: 50%;
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
 
+.milkBackground {
+  background-image: url("../img/milkbg.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headerBox {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerBackground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+  width: 700px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  color: white;
+}
+
+.headerTextBox {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.motto {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+
+.cookieName {
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1.5rem;
+}
+
+.cookieDescription {
+  color: black;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+.aboutSection {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  background-color: lightgray;
+  margin-top: 1.5rem;
+  padding: 2rem;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.aboutBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutHeader {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.aboutText {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  background-color: #19a0d0;
+  padding: 2rem;
+  color: white;
+}
