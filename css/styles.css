@@ -1,1 +1,97 @@
+h1.storeTitle {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
 
+p.storeAdvertisement {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  overflow: hidden;
+}
+
+h2.listingCookieText {
+  text-align: center;
+}
+
+.cookieImageStyling {
+  border-radius: 50%;
+}
+
+.aboutUsTitleText {
+  text-align: center;
+}
+
+.aboutUsBodyText {
+  text-align: center;
+  overflow-wrap: normal;
+}
+
+.contactUsTitleText {
+  text-align: center;
+  color: white;
+}
+
+.contactUsBodyText {
+  text-align: center;
+  color: white;
+}
+
+.cookieStore {
+  display: inline-block;
+  /* background: black; */
+  background: rgba(0, 0, 0, 0.7);
+  height: 33%;
+  width: 20%;
+  border-radius: 2%;
+  position: absolute; /* top, left, transform & display -> to center cookieStore in cookieStoreBackground*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* width: 200px;
+  height: 200px; */
+  /* opacity: 0.8; */
+}
+
+.cookieStoreBackground {
+  display: inline-block;
+  background-image: url("../img/milkbg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  /* position: relative; */
+  height: 600px;
+  width: 100%;
+}
+
+.aboutUs {
+  background: grey;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cookieMonster {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.leftOfAboutUs {
+  width: 40%;
+  float: left;
+}
+
+.rightOfAboutUs {
+  width: 60%;
+  float: right;
+  word-wrap: break-word;
+}
+
+.contactUs {
+  background: skyblue;
+}
