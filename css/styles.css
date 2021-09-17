@@ -1,1 +1,31 @@
+.box {
+    position: relative;
+    display: 100%;
+    width: 100%;
+}
 
+.text {
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    text-align: center;
+    width: 60%;
+    color:white;
+}
+
+.roundedcorner {
+    border-radius: 50%;
+}
+
+.blackbackground {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: relative;
+    height: relative;
+}
+
+.graybackground {
+    
+}
