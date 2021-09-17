@@ -1,1 +1,59 @@
+*{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
 
+.nav{
+    margin-bottom: 0;
+}
+
+.nav-link{
+    margin: 1%;
+    padding: 0;
+}
+
+
+.xl-img{
+    margin-bottom: 5%;
+}
+
+.bg-img{
+    background-image: url('/img/milkbg.jpg');
+    background-repeat: no-repeat;
+    height:50vh;
+    background-position:center center;
+}
+
+
+.transparent{
+    background: rgba(0,0,0,.5);
+    margin-top: 10vh;
+    padding: 3%;
+    width: 30%;
+    margin-left:35%;
+}
+
+
+.about-us{
+    text-align: left;
+}
+
+
+.bg-lightgray{
+    background-color:lightgrey;
+    display: inline;
+    float:left;
+    margin: 0;
+}
+
+.cookie-monster{
+    background-image: url('/img/cmonster.png');
+    
+    
+}
+
+.footer{
+    color: white;
+    background-color:#28b3d6;
+    font-size: 1em;
+}
