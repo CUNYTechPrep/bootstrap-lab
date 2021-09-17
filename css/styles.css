@@ -1,1 +1,47 @@
 
+.header{
+    text-align: center;
+    background-image: url("../img/milkbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    background-position: center;
+    font-family: 'Anton', sans-serif;
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+}
+
+h3{
+font-family: 'Anton', sans-serif;
+}
+
+p{
+font-family: 'Anton', sans-serif;
+}
+
+.container-fluid{
+    text-align: center;
+}
+
+.about{
+    background-color: grey;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.cookieMonster{
+    float: left;
+    margin: 1px;
+}
+
+.aboutUsText{
+    word-wrap: break;
+    
+}
+
+.footer{
+    background-color: aqua;
+    text-align: center;
+}
