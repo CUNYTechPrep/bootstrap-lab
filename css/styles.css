@@ -1,1 +1,22 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
+#header-image {
+    background-image: url('https://www.girlscouts.org/content/dam/girlscouts-gsusa/images/Cookies/welcome-cookie-sellers/PoweredByCookiesPage_1500x600.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+}
+
+#header-text {
+    background-color: rgba(100,100,100,0.7);
+}
+
+#about {
+    background-color: lightgray;
+}
+
+#contact {
+    background-color: lightblue ;
+}
