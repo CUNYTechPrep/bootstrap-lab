@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Gluten', cursive;
+}
 .header{
     background-image: url("/Users/wenkaitan/cuny-tech-prep/bootstrap-lab/img/milkbg.jpg");
     height: 400px;
@@ -55,7 +57,7 @@ img{
     background-color: red;
     color: white;
     border-radius: 10%;
-    padding: 5px 5px;
+    padding: 10px 10px;
 }
 .footer{
     background-color:rgb(58, 172, 224);
