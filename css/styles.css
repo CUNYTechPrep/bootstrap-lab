@@ -1,1 +1,43 @@
+* {
+  overflow-x: hidden;
+}
 
+#hero {
+  background: url("../img/milkbg.jpg") center center no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+#hero-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 100px 80px;
+  border-radius: 10px;
+}
+
+#hero-content h1 {
+  font-size: 70px;
+}
+
+#hero-content p {
+  font-size: 20px;
+}
+
+#cookies {
+  padding: 40px 0;
+}
+
+#cookies img {
+  border-radius: 100%;
+}
+
+#about {
+  background-color: #f0f0f0;
+  padding: 30px 0;
+}
+
+#contact {
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 40px 0;
+}
