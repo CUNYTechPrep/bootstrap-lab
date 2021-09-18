@@ -1,1 +1,66 @@
+*{
+    font-family: 'Gluten', cursive;
+}
+.header{
+    background-image: url("/Users/wenkaitan/cuny-tech-prep/bootstrap-lab/img/milkbg.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.subheader{
+    top: 25%;
+    left: 20%;
+    position: absolute;
+    background-color:black;
+    width: 60%;
+    height: 55%;
+    opacity: 0.5;
+}
+.subheader h1 {
+    color: white;
+    font-size: 60px;
+    padding-top: 25px;
 
+}
+.subheader p {
+    color: rgb(237, 245, 242);
+    font-size: x-large;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.center{
+    text-align: center;
+}
+
+.newimg{
+    margin-top:-10px;
+}
+img{
+    border-radius: 50%;
+}
+.about{
+    background-color: rgb(214, 209, 191);
+    padding: 20px 0;
+    font-size: 20px;
+}
+.content{
+    padding: 20px 0;
+}
+
+img{
+    width: 250px;
+}
+
+.newSign{
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+    padding: 10px 10px;
+}
+.footer{
+    background-color:rgb(58, 172, 224);
+    color: white;
+    padding: 20px 0;
+}
