@@ -38,6 +38,10 @@ nav {
 h2 {
     padding-top: 25px;
 }
+/*
+.cookie-title h3 {
+    width: 320px;
+}*/
 /* Bootstrap adds a margin-bottom of 1rem or 16px under a ul element*/
 ul {
     margin-bottom: 0 !important;
@@ -45,13 +49,16 @@ ul {
 li {
     display: inline;
 }
-.cookies img {
-    
+.cookie img {
     border-radius: 50%;
     -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	margin-bottom: 16px;
+    margin-left: 20px;
+}
+.container {
+    padding: 50px;
 }
 #cookie-monster {
     float: left;
@@ -70,6 +77,7 @@ li {
 }
 .contact-content {
     background-color: #3DB2FF;
+    color: white;
 }
 .contact-content p {
     margin: 0;
