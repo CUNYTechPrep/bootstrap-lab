@@ -1,1 +1,62 @@
+#Title {
+	text-align: center;
+}
 
+h2, h3, p {
+	text-align: center;
+}
+
+.cookies {
+  border-radius: 50%;
+   max-width: 95%;
+  height: auto;
+}
+
+.pipe {
+	color: #ffffff;
+}
+
+#new{
+	border: 1px solid black;
+	padding: 3px;
+	background-color: red;
+	color:  white;
+	border-radius: 10%;
+}
+
+.container1{
+	background-color: lightgray;
+}
+
+#address {
+	text-align: center;
+}
+
+#topline {
+	background-color: black;
+}
+
+#cookStor{
+	font-size: xx-large;
+}
+
+#Title {
+	background-image: url("img/milkbg.jpg");
+	border: solid black;
+	padding: 10%;
+	background-color: black;
+	color: white;
+	font-size: large;
+	border-radius: 3%;
+	position: absolute;
+ 	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+  	background: rgba(0,0,0,0.5);
+}
+
+#contact{
+	color: white;
+	background-color: blue;
+}
