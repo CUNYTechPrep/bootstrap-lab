@@ -1,1 +1,69 @@
+.header-content {
+	margin-bottom: 70px;
+	position:relative;
+}
 
+.innerbox {
+	background-color: black;
+	text-align: center;
+	opacity: 0.7;
+	height: 30%;
+	width: 35%;
+	min-height: 205px;
+	min-width: 150px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	border-radius: 5px;
+	padding-top: 5%;
+}
+.The-Cookies{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.Title {
+	text-align: center;
+}
+.Buy {
+	text-align: center;
+}
+
+
+  .wrapper { 
+	  max-width:2560px;
+	  margin:0 auto;
+ } 
+
+.ContactUs{
+	height:200px;
+	
+	background-color:#2596be;
+}
+.ContactUsTitle{
+	padding-top:20px;
+}
+/* .Paragraph{ }  */
+.AboutUs {
+	height:240px;
+	background-color:lightgray;
+}
+
+.AboutUsTitle{
+	padding-top:10px;
+}
+
+@media only screen and (max-width: 992px) {
+.order {
+margin: 10px;
+padding: 10px;
+flex-direction: row;
+display: flex;
+}
+.item1 {
+order: 2;
+}
+.item2 {
+order: 1;
+}
+}
