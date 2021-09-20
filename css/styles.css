@@ -1,70 +1,69 @@
-
-
-.header-content{
-   
-    margin-bottom:70px;
+.header-content {
+	margin-bottom: 70px;
+	position:relative;
 }
 
-.innerbox{
-    
-    background-color:black;
-    opacity:0.7;
-    height:30%;
-    width:35%;
-    min-height:205px;
-    min-width: 150px;
-    top:15%;
-    margin-left:35%;
-    margin-right:35%;
-    position:absolute;
-    border-radius: 5px; 
-    padding-top:5% ; 
-
+.innerbox {
+	background-color: black;
+	text-align: center;
+	opacity: 0.7;
+	height: 30%;
+	width: 35%;
+	min-height: 205px;
+	min-width: 150px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	border-radius: 5px;
+	padding-top: 5%;
 }
-.Title{
-   
-    text-align:center; 
-
+.The-Cookies{
+	text-align: center;
+	padding-bottom: 10px;
 }
-.Buy{
-    text-align:center;
-    
-   
+.Title {
+	text-align: center;
 }
-
-.All-cookies{
-    border: 2px dotted rgb(202, 23, 53);
-}
-
-.Mint-Cookies{
-    border: 2px dotted rgb(202, 23, 142);
+.Buy {
+	text-align: center;
 }
 
 
-.Peanut-Butter-Cookies{
-    border: 2px dotted rgb(169, 202, 23);
+  .wrapper { 
+	  max-width:2560px;
+	  margin:0 auto;
+ } 
+
+.ContactUs{
+	height:200px;
+	
+	background-color:#2596be;
+}
+.ContactUsTitle{
+	padding-top:20px;
+}
+/* .Paragraph{ }  */
+.AboutUs {
+	height:240px;
+	background-color:lightgray;
 }
 
-
-.Short-Bread-Cookies{
-    border: 2px dotted rgb(26, 23, 202);
+.AboutUsTitle{
+	padding-top:10px;
 }
 
-.Smores-Cookies{
-    border: 2px dotted rgb(202, 89, 23);
+@media only screen and (max-width: 992px) {
+.order {
+margin: 10px;
+padding: 10px;
+flex-direction: row;
+display: flex;
 }
-
-.All-cookies img{
-    display: block;
-    margin: auto;
-    width:120px;
-    height: 60px;
-    border-radius:50% ;
-    
+.item1 {
+order: 2;
 }
-
-.wrapper{
-    margin-left:25px;
-    margin-right:25px;
-    
+.item2 {
+order: 1;
+}
 }
