@@ -18,8 +18,8 @@ p{
 /* hero section */
 .hero-img{
     background-image: url("../img/milkbg.jpg");
-    background-size: cover;
-    background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 40em;
     max-height: 100%;
     max-width: 110%;
