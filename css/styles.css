@@ -1,1 +1,53 @@
+*{
+    font-family:'Gluten';
+}
+
+nav{
+    background-color: rgb(79, 75, 75);
+}
+
+.title{
+    font-size: 60px;
+}
+
+#banner {
+    background-image: url("../img/milkbg.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+  
+#banner .content  {
+    background-color: rgb(0,0,0,0.50);
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 60px;
+    width: 400px;
+    padding:20px;
+    border-radius: 5px ;
+    margin: 0 auto;
+}
+
+main{
+    padding-top: 20px;
+    padding: 20px;
+}
+
+.about{
+    padding-top: 20px;
+    padding: 20px;
+    background-color: lightgray;
+}
+.cookie{
+    position: relative;
+    bottom: 20px;
+}
+footer{
+    background-color: rgb(27, 112, 173);
+    padding-top: 20px;
+    padding: 20px;
+}
 
