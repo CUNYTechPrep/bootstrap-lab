@@ -1,1 +1,113 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Bonheur Royale';
+}
 
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: .5px solid white;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+} */
+
+.bar-white{
+  color: white;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  font-size: 1.5em;
+  float: left;
+  text-decoration: none;
+  margin-left: 0;
+}
+
+.container-fluid img {
+  border-radius: 50%;
+}
+
+#profile {
+  width: 100%;
+  height: 45em;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.container-fluid h2{
+  text-align: center;
+  padding: 2%;
+  font-size: 3em;
+}
+
+.container-fluid{
+  text-align: center;
+}
+
+.centered {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2%;
+  font-size: 2em;
+  text-align: center;
+}
+.centered h1{
+  font-size: 2.5em;
+}
+
+.container-about img{
+  float: left;
+}
+
+.container-about{
+  margin-top: 5%;
+  background-color: rgba(117, 109, 109, 0.4);
+  float: right;
+  padding: 5%;
+}
+
+.container-about-txt{
+  margin-left: 20%;
+  font-size: 1.5em;
+}
+
+.container-about h2{
+  font-size: 3em;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+.container-contact-us{
+  background-color: rgba(10, 183, 236, 0.863);
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  padding: 2%;
+}
+
+.col-md-3 img{
+  margin-left: 15em;
+}
