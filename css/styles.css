@@ -1,1 +1,47 @@
+.header{
+    background-position: center;
+    background-size: cover;
+}
+
+#banner {
+    background-image: url("../img/milkbg.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    width: 100%;
+    top: 20%;
+    margin: 0 auto;
+}
+
+#banner .content  {
+    background-color: rgba(2, 2, 2, 0.5);
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 55px;
+    width: 400px;
+    padding:20px;
+    border-radius: 5px ;
+    margin: 0 auto;
+}
+#aboutus .content  {
+    background-color: rgba(143, 139, 139, 0.5);
+    text-align: center;
+    color: rgb(22, 21, 21);
+    position: static;
+    padding:20px;
+    border-radius: 5px ;
+    margin: 0 auto;
+}
+
+#contact .content  {
+    background-color: rgba(38, 141, 232, 0.5);
+    text-align: center;
+    color: rgb(248, 241, 241);
+    position: static;
+    padding:20px;
+    border-radius: 5px ;
+    margin: 0 auto;
+}
+
 
