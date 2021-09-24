@@ -1,1 +1,39 @@
+body {
+  font-family: "Anton", sans-serif;
+}
+.cookieContainer {
+  width: auto;
+  height: 26em;
+  background-image: url("/img/milkbg.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  margin-bottom: 4em;
+}
 
+.aboutUsContainer {
+  height: 18em;
+  background-color: lightgray;
+}
+
+.newButton {
+  width: 4em;
+  height: 2em;
+  position: relative;
+  left: 1px;
+}
+
+.cookieMonster {
+  width: 10em;
+  height: 10em;
+}
+
+.mainTitleStyle {
+  position: absolute;
+  left: 19em;
+  top: 2em;
+  width: 30em;
+  height: 15em;
+  background-color: black;
+  opacity: 0.75;
+  font-size: 1em;
+}
