@@ -1,1 +1,23 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+body {
+    margin: 15px;
+    padding:0;
+}
+.coffee-background-image{
+    background-image: url("../img/milkbg.jpg");
+    background-size: cover;
+    background-position: cover;
+    height: 50em;
+}
 
