@@ -1,1 +1,36 @@
+img {
+    border-radius: 50%;
+    justify-content: space-between;
+    display: flex;
+    white-space: normal;
+    
+  }
+.background{
+    background-size: 800px 600px;
+}
+  
+  
+  * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .col {
+    float: right;
+    width: 66.66%;
+    padding: 5px;
+  }
+  /* Clearfix (clear floats) */
+  .row row-cols-4::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  
+  @media (min-width: 576px) { 
+    .col {
+      width: 100%;
+    } }
 
