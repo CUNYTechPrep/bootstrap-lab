@@ -1,1 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+}
 
+.store-hero {
+
+
+
+    
+    /* background-image: url(/img/milkbg.jpg); */
+    /* height: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+}
+
+.store-name {
+    text-align: center;
+    color: white;
+    border: 1px solid red;
+    background-color: rgba(14, 13, 13, 0.664);
+    margin: 0 20%; 
+    /* height: 50%;
+    width: 50; */
+    /* position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.the-cookies {
+    text-align: center;
+}
+
+.cookie-image{
+    border-radius: 50%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.cookie-name {
+    text-align: center;
+}
+
+.cookie-description {
+    text-align: center;
+}
+
+.about-section {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #cfcfcf;
+
+}
+
+.contact-info {
+    /* border: 1px solid red; */
+    background-color: #518ce4;
+    padding: 20px 0px;
+    color: white;
+    /* margin: 20px; */
+}
+
+.align-contact {
+    text-align: center;
+}
+
+.align-info {
+    text-align: center;
+}
