@@ -1,4 +1,4 @@
-# Bootstrap lab
+# Bootstrap lab BUT MY VERSION
 
 
 ## Project 1: Build a responsive cookie store web page
