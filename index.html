@@ -1,47 +1,281 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Cookie Store</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" >
+    <title>Protfolio</title>
 </head>
 <body>
 
 
-<h1>Cookie Store</h1>
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#Home">Kang Lin</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <div class="ms-auto"></div>
+                    <ul class="navbar-nav  ">
+                      <li class="nav-item active">
+                        <a class="nav-link " aria-current="page" href="#Home">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#About">About Me</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Skill">Skills</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Projects">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                      </li>
+                    </ul>
+                    </div>
+                </div>
+                
+            </nav>
+        </div>
+    </header>
+<!--main section-->
+   
+    <main class="site-main">
+        
+        <section class="site-banner" id="Home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text">Hello</h3>
+                        <h1 class="title-text text-uppercase">I am Kang Lin </h1>
+                        <h4 class="title-text text-uppercase">I'm an Aspiring Software Developer</h4>
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image">
+                        <img src="./img/main-pic.png" alt="banner-img" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<p>Buy our awesome cookies. All proceeds go to charity!</p>
+        <section class="about-area" id="About">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-image">
+                            <img src="./img/about_me.png" alt="About-us" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-title">
+                        <h2 class="text-uppercase pt-5">
+                            <span>About Me</span>
+                
+                        </h2>
+                        <div class="paragraph py-4 a">
+                            <p class="para">
+                                My name is Kang Lin and I'm currently a Junior attending Baruch College majoring 
+                                computer information Systems and minoring graphic arts.
+                            </p>
+                            <p class="para">
+                                I have been intrested in technology since sophomore year of college where I was 
+                                able to code javascript during my free time. After learning how much I can do with 
+                                this coding language I knew that I want to become a Software Developers because 
+                                of many things that they can create with technology.
+            
+                            </p>
+                        </div>
+                        <a href="file:///C:/Users/kangl/Documents/Kang-Lin-resume.pdf" target="_blank">
+                            <button type="button" class="btn button primary-button text-uppercase">Resume</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<h2>The Cookies</h2>
+        <!--Skills List-->
 
-<h3>Thin Mint Cookies</h3>
-<p>Tasty mint chocolate cookies</p>
-<img src="img/mint.png">
+        <section class="skill-area" id="Skill">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center skill-title">
+                        <h1 class="text-uppercase title-text">Technical Skills </h1>
+                        <p class="para">
+                            These are the technical skill that I Learned from building projects.
+                        </p>
+                    </div>
+                </div>
+                <div class="container skill-list">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="skill">
+                                <div class="skill-img text-center py-4">
+                                    <img src="./img/HTML.png" alt="skill-1">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">HTML</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="skill">
+                                <div class="skill-img text-center py-4">
+                                    <img src="./img/css.png" alt="skill-2">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">CSS</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="skill">
+                                <div class="skill-img text-center py-4">
+                                    <img src="./img/javascript.png" alt="skills-3">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">Javascript</h5>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="skill">
+                                <div class="skill-img text-center py-4">
+                                    <img src="./img/React.png" alt="skill-4">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">React.js</h5>
 
-<h3>Peanut Butter Cookies</h3>
-<p>Yummy peanut buttery goodness!</p>
-<img src="img/peanut.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="skill">
+                                <div class="skill-img text-center py-4">
+                                    <img src="./img/Node.png" alt="skill-4">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">Node.js</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="skill">
+                                <div class="skill-img text-center py-4">
+                                    <img src="./img/Express.png" alt="skill-4">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">Express</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="skill">
+                                <div class="skill-img text-center py-4">
+                                    <img src="./img/postgresql.png" alt="skill-4">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">PostgreSQL</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="skill">
+                                <div class="skill-img text-center py-4">
+                                    <img src="./img/firebase.png" alt="skill-4">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">FireBase</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<h3>Short Bread Cookies</h3>
-<p>Santa's favorite classic.</p>
-<img src="img/shortbread.png">
+        <!--Projects-->
+        <section class="project" id="Projects">
+        <div class="row">
+            <div class="col-lg-12 text-center skill-title">
+                <h1 class="text-uppercase title-text">Projects </h1>
+                <p class="para">
+                    These Are The projects That I Made. Feel Free To Check It Out.
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="./img/chatme5.png">
+                </div>
+                <div class="content">
+                    <h2> CHATME5</h2>
+                    <p>React/JavaScript</p>
+                    <a href="https://chatme5.netlify.app/" target="_blank">
+                        <button >Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="./img/ascend.png">
+                </div>
+                <div class="content">
+                    <h2> ASCEND BARUCH</h2>
+                    <p>WordPress</p>
+                    <a href="https://ascendbaruch.org/" target="_blank">
+                        <button >Learn More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="./img/hackathon.png">
+                </div>
+                <div class="content">
+                    <h2> CONNECT & EAT</h2>
+                    <p>Figma</p>
+                    <a href="https://devpost.com/software/connect-eat" target="_blank">
+                        <button >Learn More</button>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+            
+        
+        <section >
+            <div class="icon-wrapper">
+                <ul class="social-icon">
+                    <li class="icon">
+                        <a class="icon-color" href="https://www.linkedin.com/in/kang-lin-104/" target="_blank"> <i class="fab fa-linkedin" ></i> </a>
+                    </li>
+                    
+                    <li class="icon">
+                        <a class="icon-color" href="https://github.com/KangLin104" target="_blank"> <i class="fab fa-github-square" ></i> </a>
+                    </li>
+                
+                </ul>    
+            </div>
+           
+        </section>
 
-<h3>Smore's Cookies</h3>
-<p>Camp fire favorite!</p>
-<img src="img/smores.png">
+        
 
-<h2>About us</h2>
-<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    </main>
 
-<h2>Contact us</h2>
-<div>
-  100 Broadway Avenue,<br>
-  New York, NY 10001 <br>
-  (212) 555-1234
-</div>
-
+    <script src="./js/jquery.js "></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
