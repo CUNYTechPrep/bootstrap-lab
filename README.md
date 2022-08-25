@@ -1,3 +1,5 @@
+**This lab is now archived. Our updated lab is here https://github.com/CUNYTechPrep/lab-bootstrap-5.2**
+
 # Bootstrap lab
 
 
