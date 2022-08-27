@@ -1,1 +1,78 @@
-
+*{
+    border-radius: 3%;
+}
+body {
+    background-color: #f7f7f7;
+}
+.background{
+    background-image: url("/bootstrap-lab/img/cafe2.jpg");
+    background-size: cover;
+    height: 100%
+}
+.text-background{
+    background-color: rgba(32, 32, 32, 0.4);
+    padding: 40px;
+    color: #f3f3f3;
+}
+.display-4{
+    font-size: 100px;
+    font-weight: 600;
+}
+.display-3{
+    font-weight: 700;
+}
+.lead {
+    font-weight: 100;
+    padding-left: 60px;
+    
+}
+@media only screen and (max-width: 770px) {
+    .cm {
+        display: none;
+    }
+    .img-fluid{
+        width: 50%;
+    }
+}
+#new {
+    padding: 0;
+    margin: 0;
+}
+.shadow{
+    box-shadow: #2f2f2f;
+}
+img {
+    border-radius: 50%;
+    width: auto;
+    padding: 10px;
+}
+.card {
+    border: none;
+    align-items: center;
+    display: flex;
+    padding-bottom: 25px;
+    width: 30em;
+    flex-grow: 2;
+}
+.h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+h2 {
+    display: block;
+    width: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.about {
+    margin-top: 20px;
+    padding: 20px;
+}
+.contact {
+    padding: 50px;
+    background-color: rgba(4, 151, 196, 0.4);
+    margin-bottom: 50px;
+}
+p{
+    font-family: 'Mukta', sans-serif;
+}
