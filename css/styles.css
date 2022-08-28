@@ -1,1 +1,84 @@
+.milkbg-container{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
 
+.milk-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    /* background-color: transparent;
+    opacity: 0.8; */
+    background-color: rgba(0,0,0, 0.6);
+    border-radius: 5px;
+    font-size:22px;
+
+  }
+
+.cookie-pic {
+    border-radius: 50%;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cookie-store-name{
+    font-size:75px;
+}
+
+.about-us {
+    background-color: lightgray;
+    font-size:30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.contact-us {
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: bold;
+    text-align: center;  
+    background-color: rgb(89, 186, 247);
+    color:white;
+    margin-bottom: auto;
+    height: 175px;
+    
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+.cookie-store{
+    text-align: center;
+    margin:80px;
+}
+
+.the-cookies{
+    text-align: center;
+    margin: 5px;
+}
+
+
+.about-us-par{
+    text-align: left;
+    font-weight: light;
+    color: rgb(87, 85, 85);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contct-us-title{
+    padding: 10px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.address {
+    font-size:large;
+}
