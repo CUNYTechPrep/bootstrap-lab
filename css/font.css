@@ -1,0 +1,10 @@
+@font-face{
+    font-family: "Roboto";
+    src:"../fonts/Roboto/Roboto-Regular.ttf"
+}
+.menu{
+    width: 100%;
+}
+.NavPosition{
+    margin-right: auto;
+}
