@@ -1,1 +1,21 @@
+.jumbotron{
+    background-image: url(/Users/jackie/ctp-project/bootstrap-lab/img/milkbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 300px;
+    margin: 20px;
+}
 
+.about-us{
+    background-color: gray;
+}
+
+.abt-us-div {
+   width: 50%;
+}
+.contact-us{
+    background-color: skyblue;
+    color: white;
+}
