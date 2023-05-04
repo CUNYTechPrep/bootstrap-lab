@@ -1,1 +1,94 @@
+img {
+  border-radius: 50%;
+  width: 255px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
+ h1 {
+   text-align: center;
+   font-family: Caveat;
+ }
+
+ h2 {
+   text-align: center;
+ }
+
+ h3 {
+   text-align: center;
+   font-family: Caveat;
+ }
+
+ p {
+   text-align: center;
+ }
+
+ #newThinMints{
+   text-align: center;
+ }
+
+ #new {
+   color: white;
+   font-weight: bold;
+   background-color: #ef7770;
+   width: 60px;
+   border-radius: 10%;
+   display: inline-block;
+ }
+
+.containerAbout {
+  background-color: #D3D3D3;
+  padding: 10px;
+}
+
+.containerContact{
+  background-color: #0F98DC;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.container {
+  padding: 10px;
+}
+
+.row {
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #778899;
+}
+
+.containerTitle {
+  background-image: url("../img/milkbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: auto;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerBox {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 50px;
+  margin: auto;
+  width: 50%;
+  border-radius: 5%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
